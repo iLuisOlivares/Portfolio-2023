@@ -1,0 +1,64 @@
+{
+    "Intituciones educativas": [
+        {
+            "Institucion": "Universidad de Cartagena",
+            "titulo": "Ingenieria de sistemas",
+            "link": "",
+            "start": "2019",
+            "end": "current"
+        },
+        {
+            "Institucion": "Colombo centro-americano",
+            "titulo": "Curso intensivo de ingles",
+            "link": "",
+            "start": "2019",
+            "end": "current"
+        }
+    ],
+    "Bootcamps": [
+        {
+            "Institucion": "Ministerio de las TIC",
+            "titulo": "MisitonTic - Desarollador Fullstack",
+            "link": "",
+            "start": "2022",
+            "end": "2022"
+        },
+        {
+            "Institucion": "Ministerio de las TIC",
+            "titulo": "MisitonTic - Desarollador Java - Springboot",
+            "link": "",
+            "start": "2022",
+            "end": "2022"
+        },
+        {
+            "Institucion": "Talento juventic Colnodo",
+            "titulo": "Desarollador web junior",
+            "link": "",
+            "start": "2021",
+            "end": "2021"
+        }
+    ],
+    "Certificados": [
+        {
+            "Institucion": "Platzi",
+            "titulo": "Javascript",
+            "link": "",
+            "start": "2022",
+            "end": "2022"
+        },
+        {
+            "Institucion": "Platzi",
+            "titulo": "Frontend",
+            "link": "",
+            "start": "2022",
+            "end": "2022"
+        },
+        {
+            "Institucion": "Udemy",
+            "titulo": "Javascript",
+            "link": "",
+            "start": "2021",
+            "end": "2021"
+        },
+    ]
+}

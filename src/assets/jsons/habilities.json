@@ -1,0 +1,30 @@
+[
+    {
+        "nombre": "HTML & CSS",
+        "image": ""
+    },
+    {
+        "nombre": "Javascript",
+        "image": ""
+    },
+    {
+        "nombre": "React",
+        "image": ""
+    },
+    {
+        "nombre": "Git",
+        "image": ""
+    },
+    {
+        "nombre": "Java",
+        "image": ""
+    },
+    {
+        "nombre": "Springboot",
+        "image": ""
+    },
+    {
+        "nombre": "Python",
+        "image": ""
+    }
+]
