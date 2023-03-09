@@ -1,11 +1,14 @@
 import './App.css';
+import { About } from './components/About';
+import { GlobalStyles } from './assets/styles/style';
+
 
 function App() {
   return (
     <div className="App">
+      <GlobalStyles />
       <header className="App-header">
-        <p>
-          Luis Olivares portfolio        </p>
+        <About></About>
       </header>
     </div >
   );
