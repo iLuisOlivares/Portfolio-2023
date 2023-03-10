@@ -1,6 +1,7 @@
 import './App.css';
 import { About } from './components/About';
 import { GlobalStyles } from './assets/styles/style';
+import { Home } from './pages/Home';
 
 
 function App() {
@@ -8,7 +9,7 @@ function App() {
     <div className="App">
       <GlobalStyles />
       <header className="App-header">
-        <About></About>
+        <Home></Home>
       </header>
     </div >
   );

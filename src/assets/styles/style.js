@@ -16,22 +16,46 @@ export const Container = styled.div`
 `;
 
 export const H1 = styled.h2`
-    color: #A2E199;
+    color: #7C7F50;
 `;
 
-export const H2A = styled.h1`
-    color: #0052B6
+export const H1A = styled.h1`
+    color: #3dc44f;
+    font-size: 2em;
+    margin-bottom: 10px;
 
 `;
 export const H2 = styled.h2`
-    color: #6CA965;
     font-size: 2em ;
     margin: 10px;
+    color: #E9E9DB;
+    border-width: 10px;
 `;
 
 export const H2L = styled.h2`
-    color: #DDF8D7;
+    color: #E9E9DB;
     font-size: 2em ;
 `;
 
 
+export const ImgContainer = styled.div`
+  display: flex;
+  align-items: center;
+  @media screen and (max-width: 640px) {
+    margin: 5px;
+    height: 290px;
+    width: 320px;
+}
+`;
+
+export const Button = styled.button`
+border-radius: 6px;
+    height: 48px;
+    width: 160px;
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    font-weight: normal;
+    background-color: #47D95B;
+    border: 0;
+    cursor: pointer;
+`;

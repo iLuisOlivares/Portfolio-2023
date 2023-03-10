@@ -1,13 +1,19 @@
 import React from 'react'
-import { P } from './styles'
+import { B, P } from './StyledAbout'
 
-export const PersonalInfo = () => {
-  return (
-    <div class="text-important datos-personales">
-              <P>Nombre: Luis Sebastian Olivares Puello</P>
-              <P>Edad: 21 años</P>
-              <P>Numero: (+57) 318 4544 760</P>
-              <P>Email: luissolivaresP@gmail.com</P>
-    </div>
-  )
-}
+export const PersonalInfo = () => (
+  <div>
+    <P>
+      <B>Nombre</B>: Luis Sebastian Olivares Puello
+    </P>
+    <P>
+      <B>Edad</B>: 21 años
+    </P>
+    <P>
+      <B>Numero</B>: (+57) 318 4544 760
+    </P>
+    <P>
+      <B>Email</B>: luissolivaresp@gmail.com
+    </P>
+  </div>
+)
