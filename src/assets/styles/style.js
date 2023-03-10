@@ -20,7 +20,7 @@ export const H1 = styled.h2`
 `;
 
 export const H1A = styled.h1`
-    color: #3dc44f;
+    color: #4980c4;
     font-size: 2em;
     margin-bottom: 10px;
 
@@ -55,7 +55,7 @@ border-radius: 6px;
     color: rgb(255, 255, 255);
     font-size: 17px;
     font-weight: normal;
-    background-color: #47D95B;
+    background-color: #4980c4;
     border: 0;
     cursor: pointer;
 `;

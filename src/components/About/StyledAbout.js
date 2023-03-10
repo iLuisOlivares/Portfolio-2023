@@ -6,7 +6,7 @@ import styled from 'styled-components';
 export const AboutSection = styled.section`
   display: flex;
   flex-direction: column;
-  background-color: #47D95B;
+  background-color: #4980c4;
   justify-content: space-around;
   height: 100vh;
   width: 100%;
@@ -64,9 +64,9 @@ export const B = styled.b`
 export const ImgAbout = styled.img`
    width: 100%;
   height: 350px;
-  border-radius: 10px;
-  -webkit-box-shadow: 0px 6px 8px -5px rgba(22, 18, 18, 0.9);
-  box-shadow: 0px 5px 15px -5px rgba(14, 10, 10, 0.9);
+  border-radius: 80% 60% 70% 70%/80% 50% 80% 50%;
+  -webkit-box-shadow: 0px 6px 8px -5px #E9E9DB;
+  box-shadow: 14px 1px 1px 5px  #E9E9DB;
   @media screen and (max-width: 1000px) {
     margin: 5px;
     height: 290px;

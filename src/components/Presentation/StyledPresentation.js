@@ -50,7 +50,7 @@ export const PB = styled.p`
   font-weight: bold;
   margin-top: 10px;
   margin-bottom: 2px;
-  color: #47D95B;
+  color: #4980c4;
   text-transform: uppercase;
   font-size:15px;
 `;
@@ -59,9 +59,9 @@ export const PB = styled.p`
 export const ImgPresentation = styled.img`
    width: 100%;
   height: 350px;
-  border-radius: 10px;
-  -webkit-box-shadow: 0px 6px 8px -5px rgba(22, 18, 18, 0.9);
-  box-shadow: 0px 5px 15px -5px rgba(14, 10, 10, 0.9);
+  border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+  -webkit-box-shadow: 0px 6px 8px -5px #4980c4;
+  box-shadow: 0px 5px 1px 5px #4980c4;
   @media screen and (max-width: 1000px) {
     margin: 5px;
     height: 290px;
