@@ -6,7 +6,7 @@ import styled from 'styled-components';
 
 const AboutMe = styled.div`
 width: 70%;
-height: 500px;
+height: 400px;
 text-align: left;
 color: black;
 @media screen and (max-width: 1000px) {
@@ -19,10 +19,10 @@ const AboutSection = styled.section`
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  height: 80vh;
+  height: 200px;
   width: 100%;
   @media screen and (max-width: 1000px) {
-  height: 900px;
+  height: 345px;
   z-index: 1;
   }
 `;
@@ -30,7 +30,7 @@ const AboutSection = styled.section`
 const AboutContainer = styled.div`
   display: flex;
   justify-content: space-around;
-  height: auto;
+  height: 200px;
   
   @media screen and (max-width: 1000px) {
   flex-direction: column-reverse;
@@ -40,6 +40,7 @@ const AboutContainer = styled.div`
 }
 
 `;
+
 
 
 export const About = () => {

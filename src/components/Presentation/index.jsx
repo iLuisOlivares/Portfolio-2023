@@ -6,13 +6,12 @@ import styled from 'styled-components';
 
 const PresentationSection = styled.section`
   display: flex;
-  color: #4980c4;
   flex-direction: column;
   justify-content: space-around;
   height: 100vh;
   width: 100%;
   @media screen and (max-width: 1000px) {
-  height: 900px;
+  height: 80vh;
   }
 `;
 
