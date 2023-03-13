@@ -1,14 +1,17 @@
 import React from 'react'
-import { H2 } from '../../assets/styles/style'
+import styled from 'styled-components';
+
+const P = styled.p`
+    color: #E9E9DB;
+    font-size: 15px;
+`;
 
 export const Me = () => {
   return (
     <div>
-      <H2 class="titulos">Acerca de mi</H2>
-      <p class="text">Mi nombre es Luis Olivares, estudiante de ingenieria de sistemas en sexto semestre de la
-        universidad de Cartagena, Colombia.</p>
-      <p class="text">Actualmente me encuentro inmerso en el mundo del desarollo web explorando, indagando y
-      aprendiendo por mi propia cuenta a traves de diferentes plataformas y cursos por internet.</p>
+      <P class="text">Soy Luis Olivares, estudiante de ingenieria de sistemas en octavo semestre de la
+        universidad de Cartagena, Colombia.</P>
+      <P class="text">Actualmente estoy enfocado en el desarrollo web, explorando y adquiriendo conocimientos de manera autodidacta a través de diversas plataformas y cursos en línea, sin embargo me parece sumamente interesante cualquier campo relacionado con la tecnologia, soy apasionado de la tecnología y me encanta aprender nuevas habilidades y conceptos relacionados con este.</P>
     </div>
   )
 }

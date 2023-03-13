@@ -1,6 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;400;600&family=Raleway:ital,wght@0,200;0,400;0,600;1,300;1,400&family=VT323&display=swap');
+
 .App {
   text-align: center;
 }
+
+
 
 .App-logo {
   height: 40vmin;
@@ -14,7 +18,7 @@
 }
 
 .App-header {
-  background-color: #E9E9DB;
+  background-color: #1F1E1B;
   min-height: 100vh;
   display: flex;
   flex-direction: column;

@@ -2,10 +2,10 @@ import styled from 'styled-components';
 import { createGlobalStyle } from 'styled-components';
 
 export const GlobalStyles = createGlobalStyle`
-  @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300;400;600&display=swap');
-
   body {
-    font-family: 'Dosis', sans-serif;
+    font-family: 'Inconsolata', sans-serif;
+    color: #E9E9DB;
+    
   }
 `;
 
@@ -20,15 +20,14 @@ export const H1 = styled.h2`
 `;
 
 export const H1A = styled.h1`
-    color: #4980c4;
+    color: #F59D42;
     font-size: 2em;
     margin-bottom: 10px;
 
 `;
 export const H2 = styled.h2`
-    font-size: 2em ;
-    margin: 10px;
-    color: #E9E9DB;
+    font-size: 2m ;
+    color: #F59D42;
     border-width: 10px;
 `;
 
@@ -48,14 +47,29 @@ export const ImgContainer = styled.div`
 }
 `;
 
+
 export const Button = styled.button`
 border-radius: 6px;
     height: 48px;
     width: 160px;
-    color: rgb(255, 255, 255);
+    color: #1F1E1B;
     font-size: 17px;
     font-weight: normal;
-    background-color: #4980c4;
+    background-color: #F59D42;
     border: 0;
     cursor: pointer;
+`;
+
+
+export const P = styled.p`
+  font-size:15px;
+  color: #E9E9DB;
+
+`;
+
+export const B = styled.b`
+  font-weight: bold;
+  color: #F59D42;
+
+  font-size:15px;
 `;
