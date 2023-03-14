@@ -10,16 +10,18 @@ const PresentationSection = styled.section`
   justify-content: space-around;
   height: 100vh;
   width: 100%;
-  @media screen and (max-width: 1000px) {
-  height: 80vh;
+  @media screen and (max-width: 900px) {
+  height: 90vh;
   }
+  
 `;
 
 const PresentationContainer = styled.div`
   display: flex;
   justify-content: space-around;
   height: auto;
-  @media screen and (max-width: 1000px) {
+  @media screen and (max-width: 900px) {
+      height: 90vh;
   flex-direction: column-reverse;
   justify-content: space-around;
   align-items: center;
@@ -34,9 +36,9 @@ text-align: left;
 display: flex;
 align-items: center;
 align-content: center;
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 900px) {
   width: 345px; 
-  height: auto;
+  height: 400px;
 }
 `;
 
@@ -46,6 +48,9 @@ const Imgs = styled.div`
     display: flex;
   align-items: center;
   justify-content: center;
+  @media screen and (max-width: 900px) {
+  height: 250px; 
+}
 
 `;
 
@@ -56,9 +61,9 @@ text-align: center;
   border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
   position: absolute;
 
-  @media screen and (max-width: 1000px) {
+  @media screen and (max-width: 900px) {
       margin: 10px;
-    height: 390px;
+    height: 250px;
 }
 `;
 const ImgPresentation2 = styled.div`
@@ -70,9 +75,9 @@ const ImgPresentation2 = styled.div`
   border-radius: 40% 20% 40% 30%/40% 40% 50% 30%;
   -webkit-box-shadow: 5px 6px 8px -10px rgb(20, 19, 16);
   position: absolute;
-  @media screen and (max-width: 1000px) {
+  @media screen and (max-width: 900px) {
       margin: 10px;
-    height: 390px;
+    height: 250px;
 }
 `;
 const ImgPresentation3 = styled(ImgPresentation2)`

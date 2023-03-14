@@ -4,18 +4,21 @@ import styled from 'styled-components';
 import { H2 } from '../../assets/styles/style';
 
 const SkillsSection = styled.section`
-  height: 400px;
+  height: 60vh;
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  @media screen and (max-width: 1000px) {
+  @media screen and (max-width: 900px) {
+  height: 70vh;
+
   }
 `;
 
 const SkillsContainer = styled.div`
     display: flex;
     justify-content: center;
+    align-items: center;
     flex-direction: column;
 
 `;

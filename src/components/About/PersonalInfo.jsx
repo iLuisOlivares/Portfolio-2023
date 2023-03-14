@@ -7,10 +7,12 @@ const Infocont = styled.div`
   display: flex;
   align-items: center;
   flex-direction: row;
-  @media screen and (max-width: 640px) {
-    margin: 5px;
-    height: 290px;
-    width: 320px;
+  @media screen and (max-width: 900px) {
+    height: 90px;
+    flex-direction: column;
+    text-align: left; 
+    align-items: flex-start;
+
 }
 `;
 

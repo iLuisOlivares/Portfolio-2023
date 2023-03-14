@@ -58,6 +58,12 @@ border-radius: 6px;
     background-color: #AF4C39;
     border: 0;
     cursor: pointer;
+    @media screen and (max-width: 900px) {
+    margin: 5px;
+    height: 50px;
+    border-radius: 20px;
+    width: 320px;
+}
 `;
 
 
