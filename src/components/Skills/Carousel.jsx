@@ -22,7 +22,12 @@ const ImgDiv = styled.div`
     padding: 10px;
     border-radius: 10%;
     margin: 30px;
+  -webkit-box-shadow: 0px 6px 10px -10px #5f5c5c;
 
+    :hover{
+        border-radius: 20% 30% 23% 90%/60% 30% 70% 40%;
+        box-shadow: 0px 5px 1px 5px #af4d39b9;
+    }
 `;
 
 const Img = styled.img`
@@ -38,7 +43,6 @@ export const Carousel = () => {
             <ImgDiv>
                 <Img src={js} alt="javascript" />
                 <P>Javascript</P>
-
             </ImgDiv>
             <ImgDiv>
                 <Img src={react} alt="React" />

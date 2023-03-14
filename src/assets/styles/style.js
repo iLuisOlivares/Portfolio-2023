@@ -3,7 +3,7 @@ import { createGlobalStyle } from 'styled-components';
 
 export const GlobalStyles = createGlobalStyle`
   body {
-    font-family: 'Inconsolata', sans-serif;
+    font-family: 'Space Mono','Inconsolata', sans-serif;
     color: #E9E9DB;
     
   }
@@ -16,18 +16,18 @@ export const Container = styled.div`
 `;
 
 export const H1 = styled.h2`
-    color: #7C7F50;
+    color: #AF4C39;
 `;
 
 export const H1A = styled.h1`
-    color: #F59D42;
+    color: #AF4C39;
     font-size: 2em;
     margin-bottom: 10px;
 
 `;
 export const H2 = styled.h2`
     font-size: 2m ;
-    color: #F59D42;
+    color: #AF4C39;
     border-width: 10px;
 `;
 
@@ -55,7 +55,7 @@ border-radius: 6px;
     color: #1F1E1B;
     font-size: 17px;
     font-weight: normal;
-    background-color: #F59D42;
+    background-color: #AF4C39;
     border: 0;
     cursor: pointer;
 `;
@@ -69,7 +69,7 @@ export const P = styled.p`
 
 export const B = styled.b`
   font-weight: bold;
-  color: #F59D42;
+  color: #AF4C39;
 
   font-size:15px;
 `;

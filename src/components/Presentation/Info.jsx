@@ -17,14 +17,23 @@ const PB = styled.p`
   font-size:20px;
 `;
 
-export const Info = () => {
-    return (
-        <div>
-            <H1A>Luis Olivares</H1A>
-            <PB>Desarollador Web Junior</PB>
-            <P>Estudiante ingenieria de sistemas, en busca de nuevos desafios y retos</P>
-            <Button>Descargar CV</Button>
+const B = styled.b`
+ color: #1F1E1B;
+ background-color: #AF4C39;
+ border-radius: 10px;
+ padding: 5px;
+ margin: 2px;
 
-        </div>
-    )
+`
+
+export const Info = () => {
+  return (
+    <div>
+      <H1A>Luis Olivares</H1A>
+      <PB>Desarollador Web <B>Junior</B></PB>
+      <P>Estudiante ingenieria de sistemas, en busca de nuevos desafios y retos</P>
+      <Button>Descargar CV</Button>
+
+    </div>
+  )
 }

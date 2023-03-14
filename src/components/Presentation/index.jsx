@@ -55,6 +55,7 @@ const ImgPresentation = styled.img`
 text-align: center;
   border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
   position: absolute;
+
   @media screen and (max-width: 1000px) {
       margin: 10px;
     height: 390px;
@@ -65,10 +66,9 @@ const ImgPresentation2 = styled.div`
   width: 250px;
   text-align: center;
   transform: rotate(40deg);
-  background-color: #F0E3CA;
+  background-color: #161111;
   border-radius: 40% 20% 40% 30%/40% 40% 50% 30%;
-  /* -webkit-box-shadow: 0px 6px 8px -5px #F59D42; */
-  /* box-shadow: 0px 5px 1px 5px #F59Ds42; */
+  -webkit-box-shadow: 5px 6px 8px -10px rgb(20, 19, 16);
   position: absolute;
   @media screen and (max-width: 1000px) {
       margin: 10px;
@@ -78,10 +78,10 @@ const ImgPresentation2 = styled.div`
 const ImgPresentation3 = styled(ImgPresentation2)`
 transform: rotate(67deg);
 opacity: 90%;
-background-color: #F59D42;
+background-color: #AF4C39;
   border-radius: 20% 30% 23% 90%/60% 30% 70% 40%;
-  /* -webkit-box-shadow: 0px 6px 8px -5px #F59D42; */
-  box-shadow: 0px 5px 1px 5px #F59D42;
+
+  -webkit-box-shadow: 5px 6px 8px -10px #141310;
 `;
 
 
