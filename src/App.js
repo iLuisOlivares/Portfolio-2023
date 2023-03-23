@@ -3,7 +3,6 @@ import { About } from './components/About';
 import { GlobalStyles } from './assets/styles/style';
 import { Home } from './pages/Home';
 
-
 function App() {
   return (
     <div className="App">

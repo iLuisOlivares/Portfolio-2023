@@ -71,7 +71,7 @@ const ImgPresentation2 = styled.div`
   width: 250px;
   text-align: center;
   transform: rotate(40deg);
-  background-color: #161111;
+  background-color: #1a1919;
   border-radius: 40% 20% 40% 30%/40% 40% 50% 30%;
   -webkit-box-shadow: 5px 6px 8px -10px rgb(20, 19, 16);
   position: absolute;

@@ -4,9 +4,9 @@ import styled from 'styled-components';
 import { H2 } from '../../assets/styles/style';
 
 const SkillsSection = styled.section`
-  height: 60vh;
+  height: 70vh;
   width: 100%;
-  display: flex;
+  display: flex ;
   justify-content: center;
   align-items: center;
   @media screen and (max-width: 900px) {
@@ -23,11 +23,19 @@ const SkillsContainer = styled.div`
 
 `;
 
+const H2E = styled(H2)`
+    margin-bottom: 10px;
+    margin-top: 25px ;
+`;
+
+
+
+
 export const Skills = () => {
     return (
         <SkillsSection>
             <SkillsContainer>
-                <H2>Habilidades</H2>
+                <H2E>Habilidades</H2E>
                 <Carousel></Carousel>
             </SkillsContainer>
 

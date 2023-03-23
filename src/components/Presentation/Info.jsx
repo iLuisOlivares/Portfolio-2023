@@ -31,7 +31,7 @@ export const Info = () => {
     <div>
       <H1A>Luis Olivares</H1A>
       <PB>Desarollador Web <B>Junior</B></PB>
-      <P>Estudiante ingenieria de sistemas, en busca de nuevos desafios y retos</P>
+      <P>Estudiante ingenieria de sistemas, en busca de nuevos desafios y retos.</P>
       <Button>Descargar CV</Button>
 
     </div>
