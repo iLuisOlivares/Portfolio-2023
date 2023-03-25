@@ -25,6 +25,12 @@ export const H1A = styled.h1`
     margin-bottom: 10px;
 
 `;
+export const H1L = styled.h1`
+    color: #E9E9DB;
+    font-size: 2em;
+    margin: 20px;
+
+`;
 export const H2 = styled.h2`
     font-size: 2m ;
     color: #AF4C39;
