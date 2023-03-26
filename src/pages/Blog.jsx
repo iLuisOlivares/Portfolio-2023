@@ -6,6 +6,8 @@ import Lucas1 from '../assets/images/Lucas1.jpg'
 import Luis2 from '../assets/images/Luis2.jpg'
 import Luis4 from '../assets/images/Luis4.jpg'
 import Place from '../assets/images/Place.jpg'
+import Me from '../assets/images/Me.jpeg'
+import Family from '../assets/images/Family.jpg'
 
 
 const BlogSection = styled.section`
@@ -43,9 +45,21 @@ const publications = [
     date: "2023-03-25"
   },
   {
+    tittle: "Mi Familia 👨‍👩‍👦‍👦",
+    content: "Mi familia es lo más importante en mi vida y cada uno de ellos tiene un lugar especial en mi corazón. Mi padre es una persona fuerte y disciplinada, un verdadero ejemplo a seguir. Siempre he sentido orgullo de él y de todo lo que ha logrado en su vida. Mi madre, por otro lado, es una mujer cariñosa aunque no lo muestre abiertamente, siempre ha estado ahí para mí, apoyándome y haciendo todo lo posible para que yo sea feliz. Disfruto mucho caminar y hablar con ella. Mi hermano es el niño más gracioso e inteligente que conozco. Aunque no nos llevamos siempre bien, es la persona a la que más quiero en el mundo. Además, siempre me hace reír. Lucas, nuestra mascota, era un miembro más que ya falleció pero que sigue vivo en nuestros corazones, lo queríamos demasiado. Por suerte, llegó Valiente, nuestra nueva mascota, quien ha alegrado el vacío que dejó Lucas. La familia es algo que siempre debo cuidar y valorar, son mi mayor tesoro.",
+    img: Family,
+    date: "2023-03-25"
+  },
+  {
     tittle: "Mis hobbies al aire libre 🏞️",
-    content: "Me encanta ser una persona activa y siempre estar en movimiento. Desde pequeño he disfrutado jugando futbol ⚽️, basketball 🏀, natacion 🏊‍♂️ y cualquier otro deporte 🤸🏼, también me encanta explorar el mundo bajo el agua con el buceo 🌊. Para nadie es un secreto que me apasionan las actividades físicas que me desafían a correr, saltar y moverme. Para mí, la vida es una aventura que me encanta explorar a través de mi cuerpo y mente en constante movimiento.⛹️ La foto es el parque al que suelo ir cuando me encuentro en Bogota.",
+    content: "Me encanta ser una persona activa y siempre estar en movimiento. Desde pequeño he disfrutado jugando futbol ⚽️, basketball 🏀, natacion 🏊‍♂️ y cualquier otro deporte 🤸🏼, también me encanta explorar el mundo bajo el agua con el buceo 🌊. Para nadie es un secreto que me apasionan las actividades físicas que me desafían a correr, saltar y moverme, especialmente si es acompañado de amigos. Para mí, la vida es una aventura que me encanta explorar a través de mi cuerpo y mente en constante movimiento.⛹️, Tambien me gusta bailar pero no soy muy bueno para ello ajaja.  La foto es el parque al que suelo ir cuando me encuentro en Bogota.",
     img: Place,
+    date: "2023-03-25"
+  },
+  {
+    tittle: "Mis hobbies en casa 🏡",
+    content: "Desde que era niño, me apasionó la tecnología y los videojuegos 🕹️. Es por eso que me involucré en el mundo del desarrollo de software 🧑‍💻 y razon por la que decidi estudiar ingenieria de sistemas. Ahora, mis pasatiempos consisten en aprender cosas nuevas sobre programación 💻️, seguir las últimas novedades tecnológicas 🪙 y disfrutar de una que otra serie de comedia, romance o algo relacionado con superpoderes 🦸, si.. suena un poco nerd ajaja. En un futuro me gustaria comprar una camara y aprender a tomar fotos 📸.",
+    img: Me,
     date: "2023-03-25"
   }
 
