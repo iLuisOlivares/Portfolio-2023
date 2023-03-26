@@ -6,17 +6,21 @@ import { Skills } from '../components/Skills'
 import { Projects } from '../components/Projects'
 import Footer from '../components/Footer'
 import { Blog } from './Blog'
-
+import styled from 'styled-components'
 export const Home = () => {
+
+  const HomseSection = styled.div`
+@media screen and (max-width: 900px) {
+  margin-top: 100px;
+}
+
+`;
   return (
-    <div>
-      {/* <Header></Header>
+    <HomseSection>
       <Presentation></Presentation>
-      <About></About>
+      <About id='Acerca'></About>
       <Skills></Skills>
       <Projects></Projects>
-      <Footer></Footer> */}
-      <Blog></Blog>
-    </div>
+    </HomseSection>
   )
 }

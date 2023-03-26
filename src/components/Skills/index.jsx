@@ -33,7 +33,7 @@ const H2E = styled(H2)`
 
 export const Skills = () => {
     return (
-        <SkillsSection>
+        <SkillsSection id='skills'>
             <SkillsContainer>
                 <H2E>Habilidades</H2E>
                 <Carousel></Carousel>

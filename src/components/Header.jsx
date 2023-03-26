@@ -2,17 +2,24 @@ import React from 'react';
 import styled from 'styled-components';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
-
+import { Link as LinkScroll } from 'react-scroll';
+import { Link as LinkRouter, useLocation } from 'react-router-dom';
 const HeaderContainer = styled.header`
+  position: fixed;
+  top: 0;
+  width: 97%;
+  padding: 20px;
+  z-index: 2;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding: 15px;
   background-color: #1a1919;
   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
   @media (max-width: 900px) {
-    margin-bottom: 30px
+    margin-bottom: 60px;
+    width: 95%;
+
   }
 `;
 
@@ -48,7 +55,20 @@ const NavMenu = styled.nav`
   }
 `;
 
-const NavItem = styled.a`
+const NavItem = styled(LinkScroll)`
+  margin-left: 20px;
+  font-size: 16px;
+  color: #333333;
+  color: #E9E9DB;
+  text-decoration: none;
+  
+  &:hover {
+    text-decoration: underline;
+    text-decoration-color: #AF4C39;
+    cursor: pointer;
+  }
+`;
+const NavRouter = styled(LinkRouter)`
   margin-left: 20px;
   font-size: 16px;
   color: #333333;
@@ -71,16 +91,26 @@ const StyledIcon = styled(FontAwesomeIcon)`
 
 const logo = '<LuihOli>'
 const Header = () => {
+  const location = useLocation();
   return (
     <HeaderContainer>
       <Logo>{logo}</Logo>
       <MenuButton><StyledIcon icon={faBars}></StyledIcon></MenuButton>
       <NavMenu>
-        <NavItem href="#">Inicio</NavItem>
-        <NavItem href="#">Acerca</NavItem>
-        <NavItem href="#">Habilidades</NavItem>
-        <NavItem href="#">Contactame</NavItem>
-        <NavItem href="#">Blog</NavItem>
+        {
+          location.pathname === '/' ? <div>
+
+            <NavItem to='home' spy={true} smooth={true} offset={-200} duration={500}>Inicio</NavItem>
+            <NavItem to="about" spy={true} smooth={true} offset={-200} duration={500}>Acerca</NavItem>
+            <NavItem to='skills' spy={true} smooth={true} offset={-80} duration={500}>Habilidades</NavItem>
+            <NavItem to='projects' spy={true} smooth={true} offset={0} duration={500}>Proyectos</NavItem>
+            <NavRouter to='/blog'>Blog</NavRouter>
+          </div> : <div>
+            <NavRouter to='/#'>Inicio</NavRouter>
+            <NavRouter to='/blog'>Blog</NavRouter>
+          </div>
+        }
+
       </NavMenu>
     </HeaderContainer>
   );

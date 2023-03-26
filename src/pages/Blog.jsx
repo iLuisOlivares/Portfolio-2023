@@ -15,6 +15,7 @@ const BlogSection = styled.section`
   flex-direction: column;
   justify-content: space-around;
   width: 100%;
+  margin-top: 100px;
   @media screen and (max-width: 900px) {
   }
   

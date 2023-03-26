@@ -41,7 +41,7 @@ const AboutContainer = styled.div`
 
 export const About = () => {
   return (
-    <AboutSection>
+    <AboutSection id='about'>
       <Container>
         <AboutContainer >
           <AboutMe>

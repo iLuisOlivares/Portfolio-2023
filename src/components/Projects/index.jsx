@@ -4,7 +4,7 @@ import { H2, P } from '../../assets/styles/style';
 
 
 const ProjectsSection = styled.section`
-  height: 70vh;
+  height: auto;
   width: 100%;
   display: flex ;
   justify-content: center;
@@ -27,7 +27,7 @@ const content = "<  Comming soon / >"
 export const Projects = () => {
 
     return (
-        <ProjectsSection>
+        <ProjectsSection id='projects'>
             <ProjectsContainer>
                 <H2>Proyectos</H2>
                 <P>{content}</P>

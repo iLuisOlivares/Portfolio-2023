@@ -10,9 +10,9 @@ const PresentationSection = styled.section`
   justify-content: space-around;
   height: 100vh;
   width: 100%;
-  @media screen and (max-width: 900px) {
+  /* @media screen and (max-width: 900px) {
   height: 90vh;
-  }
+  } */
   
 `;
 
@@ -92,7 +92,7 @@ background-color: #AF4C39;
 
 export const Presentation = () => {
   return (
-    <PresentationSection>
+    <PresentationSection id='home'>
       <Container>
         <PresentationContainer>
           <InfoContainer>
