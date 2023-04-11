@@ -19,6 +19,7 @@ const HeaderContainer = styled.header`
   @media (max-width: 900px) {
     margin-bottom: 60px;
     width: 95%;
+    flex-direction: column;
 
   }
 `;
@@ -51,7 +52,7 @@ const NavMenu = styled.nav`
   align-items: center;
 
   @media (max-width: 768px) {
-    display: none;
+   
   }
 `;
 
@@ -95,7 +96,6 @@ const Header = () => {
   return (
     <HeaderContainer>
       <Logo>{logo}</Logo>
-      <MenuButton><StyledIcon icon={faBars}></StyledIcon></MenuButton>
       <NavMenu>
         {
           location.pathname === '/' ? <div>
