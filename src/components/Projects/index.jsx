@@ -31,7 +31,7 @@ export const Projects = () => {
             <ProjectsContainer>
                 <H2>Projects</H2>
                 <P>{content}</P>
-                <P>Trabajando en esta seccion... <H2 href="">Click here in the future</H2> </P>
+                <P>Working in this section... <H2 href="">Click here in the future</H2> </P>
             </ProjectsContainer>
 
         </ProjectsSection >
