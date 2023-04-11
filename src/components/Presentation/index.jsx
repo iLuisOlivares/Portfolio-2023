@@ -94,7 +94,7 @@ export const Presentation = () => {
   return (
     <PresentationSection id='home'>
       <Container>
-        <PresentationContainer>
+        <PresentationContainer className='animate__animated animate__fadeInLeft'>
           <InfoContainer>
             <Info></Info>
           </InfoContainer>

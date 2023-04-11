@@ -70,7 +70,7 @@ export const Blog = () => {
   return (
     <BlogSection>
       <H1L>My Blog</H1L>
-      <BlogContainer>
+      <BlogContainer className='animate__animated animate__fadeInUp'>
 
         {publications.map((publication, index) => (
           <Publication key={index} {...publication} />

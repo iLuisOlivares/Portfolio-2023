@@ -28,7 +28,7 @@ export const Projects = () => {
 
     return (
         <ProjectsSection id='projects'>
-            <ProjectsContainer>
+            <ProjectsContainer className='animate__animated animate__fadeInLeft'>
                 <H2>Projects</H2>
                 <P>{content}</P>
                 <P>Working in this section... <H2 href="">Click here in the future</H2> </P>

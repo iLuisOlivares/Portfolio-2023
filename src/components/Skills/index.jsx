@@ -34,7 +34,7 @@ const H2E = styled(H2)`
 export const Skills = () => {
     return (
         <SkillsSection id='skills'>
-            <SkillsContainer>
+            <SkillsContainer className='animate__animated animate__fadeInLeft'>
                 <H2E>Skills</H2E>
                 <Carousel></Carousel>
             </SkillsContainer>

@@ -44,7 +44,7 @@ export const About = () => {
     <AboutSection id='about'>
       <Container>
         <AboutContainer >
-          <AboutMe>
+          <AboutMe className='animate__animated animate__fadeInLeft'>
             <Me></Me>
             <PersonalInfo></PersonalInfo>
 
