@@ -52,9 +52,9 @@ const Footer = () => {
     <FooterContainer>
       <Container>
         <SocialIconsContainer>
-          <SocialIcon href="#"><i class="fa-brands fa-linkedin"></i></SocialIcon>
-          <SocialIcon href="#"><i class="fa-brands fa-github"></i></SocialIcon>
-          <SocialIcon href="#"><i class="fa-solid fa-envelope"></i></SocialIcon>
+          <SocialIcon href="https://www.linkedin.com/in/luissolivaresp/"><i class="fa-brands fa-linkedin"></i></SocialIcon>
+          <SocialIcon href="https://github.com/iLuisOlivares"><i class="fa-brands fa-github"></i></SocialIcon>
+          <SocialIcon href="mailto:luissolivaresp@gmail.com"><i class="fa-solid fa-envelope"></i></SocialIcon>
         </SocialIconsContainer>
         <FooterText> © 2023 {logo}</FooterText>
       </Container>

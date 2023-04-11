@@ -33,37 +33,36 @@ const BlogContainer = styled.div`
 
 const publications = [
   {
-    tittle: "Mi mascota Lucas 🐾",
-    content: "Lucas fue mi mejor amigo, me enseñó lo que era amar y cuánto dolía perder algo que en verdad te importa. Fue y siempre sera de los seres vivos más importantes para mí. Era un loquillo, pero la mayoría del tiempo era muy calmado. Realmente no era un perro que hiciera mucho ruido, pero solo sentándose a tu lado ya sentías el apoyo que necesitabas para seguir adelante. También sabía cómo contagiar la felicidad. Cada recuerdo que tengo de él está lleno de este sentimiento. como saltar cuando sabia que ibamos a pasear, las veces que haciamos carreras y me ganaba, caminar por la playa y dormir juntos simplemente seran los mejores recuerdos de mi vida. Te extraño Lucas y por ti siempre voy a a salir adelante ❤️.",
+    tittle: "My pet Lucas 🐾",
+    content: "Lucas was my best friend, he taught me what love was and how much it hurt to lose something you truly care about. He was and will always be one of the most important living beings for me. He was a crazy dog, but most of the time he was very calm. He really wasn't a dog that made a lot of noise, but just sitting by your side you felt the support you needed to move on. He also knew how to spread happiness. Every memory I have of him is filled with this feeling, like jumping when he knew we were going for a walk, the times we raced and he won, walking on the beach, and sleeping together will simply be the best memories of my life. I miss you Lucas and I will always move forward for you ❤️.",
     img: Luis4,
     date: "2023-03-25"
 
   },
   {
-    tittle: "Quien es Luis 👋🏼",
-    content: "Luis para los amigos, Sebastián para la familia, Soy Luis Olivares, una persona alegre que le encanta estar rodeado de amigos con los que compartir nuevas experiencias y crear recuerdos de los cuales sabe que va a estar feliz cuando en el futuro se encuentre mirando atrás. Soy una persona trabajadora, amable y muy responsable. Lo que más me gusta en la vida es realizar actividades físicas, salir con mis amigos y probar cosas nuevas. Mi mayor sueño es ser feliz y que en algún punto de mi vida pueda decir que estoy en mi lugar ideal.",
+    tittle: "Who is Luis 👋🏼",
+    content: "Luis for friends, Sebastian for family, I am Luis Olivares, a cheerful person who loves to be surrounded by friends with whom to share new experiences and create memories that he knows he will be happy with when he looks back in the future. I am a hardworking, kind, and very responsible person. What I like most in life is to engage in physical activities, go out with my friends, and try new things. My biggest dream is to be happy and that at some point in my life I can say that I am in my ideal place.",
     img: Luis2,
     date: "2023-03-25"
   },
   {
-    tittle: "Mi Familia 👨‍👩‍👦‍👦",
-    content: "Mi familia es lo más importante en mi vida y cada uno de ellos tiene un lugar especial en mi corazón. Mi padre es una persona fuerte y disciplinada, un verdadero ejemplo a seguir. Siempre he sentido orgullo de él y de todo lo que ha logrado en su vida. Mi madre, por otro lado, es una mujer cariñosa aunque no lo muestre abiertamente, siempre ha estado ahí para mí, apoyándome y haciendo todo lo posible para que yo sea feliz. Disfruto mucho caminar y hablar con ella. Mi hermano es el niño más gracioso e inteligente que conozco. Aunque no nos llevamos siempre bien, es la persona a la que más quiero en el mundo. Además, siempre me hace reír. Lucas, nuestra mascota, era un miembro más que ya falleció pero que sigue vivo en nuestros corazones, lo queríamos demasiado. Por suerte, llegó Valiente, nuestra nueva mascota, quien ha alegrado el vacío que dejó Lucas. La familia es algo que siempre debo cuidar y valorar, son mi mayor tesoro.",
+    tittle: "My Family 👨‍👩‍👦‍👦",
+    content: "My family is the most important thing in my life and each of them has a special place in my heart. My father is a strong and disciplined person, a true role model. I have always felt proud of him and everything he has achieved in his life. My mother, on the other hand, is a loving woman, although she doesn't show it openly, she has always been there for me, supporting me and doing everything possible to make me happy. I really enjoy walking and talking with her. My brother is the funniest and smartest kid I know. Although we don't always get along, he is the person I love the most in the world. Also, he always makes me laugh. Lucas, our pet, was another member who has already passed away but still lives on in our hearts, we loved him so much. Luckily, Valiente, our new pet, came along, who has filled the void left by Lucas. Family is something I must always take care of and value, they are my greatest treasure.",
     img: Family,
     date: "2023-03-25"
   },
   {
-    tittle: "Mis hobbies al aire libre 🏞️",
-    content: "Me encanta ser una persona activa y siempre estar en movimiento. Desde pequeño he disfrutado jugando futbol ⚽️, basketball 🏀, natacion 🏊‍♂️ y cualquier otro deporte 🤸🏼, también me encanta explorar el mundo bajo el agua con el buceo 🌊. Para nadie es un secreto que me apasionan las actividades físicas que me desafían a correr, saltar y moverme, especialmente si es acompañado de amigos. Para mí, la vida es una aventura que me encanta explorar a través de mi cuerpo y mente en constante movimiento.⛹️, Tambien me gusta bailar pero no soy muy bueno para ello ajaja.  La foto es el parque al que suelo ir cuando me encuentro en Bogota.",
+    tittle: "My outdoor hobbies 🏞️",
+    content: "I love being an active person and always being on the move. Since I was little, I've enjoyed playing soccer ⚽️, basketball 🏀, swimming 🏊‍♂️, and any other sport 🤸🏼. I also love exploring the underwater world with scuba diving 🌊. It's no secret that I'm passionate about physical activities that challenge me to run, jump, and move, especially if it's with friends. For me, life is an adventure that I love to explore through my constantly moving body and mind.⛹️, I also like dancing, but I'm not very good at it haha. The photo is from the park I usually go to when I'm in Bogota.",
     img: Place,
     date: "2023-03-25"
   },
   {
-    tittle: "Mis hobbies en casa 🏡",
-    content: "Desde que era niño, me apasionó la tecnología y los videojuegos 🕹️. Es por eso que me involucré en el mundo del desarrollo de software 🧑‍💻 y razon por la que decidi estudiar ingenieria de sistemas. Ahora, mis pasatiempos consisten en aprender cosas nuevas sobre programación 💻️, seguir las últimas novedades tecnológicas 🪙 y disfrutar de una que otra serie de comedia, romance o algo relacionado con superpoderes 🦸, si.. suena un poco nerd ajaja. En un futuro me gustaria comprar una camara y aprender a tomar fotos 📸.",
+    tittle: "My hobbies in general 🏡",
+    content: "Since I was a kid, I've been passionate about technology and video games 🕹️. That's why I got involved in the world of software development 🧑‍💻 and why I decided to study systems engineering. Now, my hobbies consist of learning new things about programming 💻️, following the latest technological news 🪙, and enjoying a comedy, romance, or something related to superpowers 🦸 every now and then, yeah... it sounds a bit nerdy haha. In the future, I would like to buy a camera and learn how to take photos 📸.",
     img: Me,
     date: "2023-03-25"
   }
-
 ]
 
 

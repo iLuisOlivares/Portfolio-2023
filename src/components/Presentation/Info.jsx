@@ -32,8 +32,9 @@ export const Info = () => {
       <H1A>Luis Olivares</H1A>
       <PB>Desarollador Web <B>Junior</B></PB>
       <P>Estudiante ingenieria de sistemas, en busca de nuevos desafios y retos.</P>
-      <Button>Descargar CV</Button>
-
+      <form action="https://docs.google.com/document/d/19H1VVRYTRw2cwequo2OUKi8_7Shs-KJu2wxNFeAymdQ/edit?usp=sharing">
+        <Button type="submit">Download CV</Button>
+      </form>
     </div>
   )
 }

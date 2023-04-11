@@ -99,7 +99,6 @@ const Header = () => {
       <NavMenu>
         {
           location.pathname === '/' ? <div>
-
             <NavItem to='home' spy={true} smooth={true} offset={-200} duration={500}>Inicio</NavItem>
             <NavItem to="about" spy={true} smooth={true} offset={-200} duration={500}>Acerca</NavItem>
             <NavItem to='skills' spy={true} smooth={true} offset={-80} duration={500}>Habilidades</NavItem>
