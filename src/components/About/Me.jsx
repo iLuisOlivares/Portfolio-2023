@@ -9,9 +9,8 @@ const P = styled.p`
 export const Me = () => {
   return (
     <div>
-      <P class="text">Soy Luis Olivares, estudiante de ingenieria de sistemas en octavo semestre de la
-        universidad de Cartagena, Colombia.</P>
-      <P class="text">Actualmente estoy enfocado en el desarrollo web, explorando y adquiriendo conocimientos de manera autodidacta a través de diversas plataformas y cursos en línea, sin embargo me parece sumamente interesante cualquier campo relacionado con la tecnologia, soy apasionado de la tecnología y me encanta aprender nuevas habilidades y conceptos relacionados con este.</P>
+      <P class="text">I am Luis Olivares, a systems engineering student in the eighth semester of the University of Cartagena, Colombia.</P>
+      <P class="text">I am currently focused on web development, exploring and acquiring knowledge in a self-taught way through various platforms and online courses, however any field related to technology seems extremely interesting to me, I am passionate about technology and I love learning new skills and concepts related to it.</P>
     </div>
   )
 }

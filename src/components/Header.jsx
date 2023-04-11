@@ -99,13 +99,13 @@ const Header = () => {
       <NavMenu>
         {
           location.pathname === '/' ? <div>
-            <NavItem to='home' spy={true} smooth={true} offset={-200} duration={500}>Inicio</NavItem>
-            <NavItem to="about" spy={true} smooth={true} offset={-200} duration={500}>Acerca</NavItem>
-            <NavItem to='skills' spy={true} smooth={true} offset={-80} duration={500}>Habilidades</NavItem>
-            <NavItem to='projects' spy={true} smooth={true} offset={0} duration={500}>Proyectos</NavItem>
+            <NavItem to='home' spy={true} smooth={true} offset={-200} duration={500}>Home</NavItem>
+            <NavItem to="about" spy={true} smooth={true} offset={-200} duration={500}>About</NavItem>
+            <NavItem to='skills' spy={true} smooth={true} offset={-80} duration={500}>Skills</NavItem>
+            <NavItem to='projects' spy={true} smooth={true} offset={0} duration={500}>Projects</NavItem>
             <NavRouter to='/blog'>Blog</NavRouter>
           </div> : <div>
-            <NavRouter to='/#'>Inicio</NavRouter>
+            <NavRouter to='/#'>Home</NavRouter>
             <NavRouter to='/blog'>Blog</NavRouter>
           </div>
         }

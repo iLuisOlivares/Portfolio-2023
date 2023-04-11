@@ -26,10 +26,10 @@ const P = styled.p`
 export const PersonalInfo = () => (
   <Infocont>
     <P>
-      <B>Numero</B>: (+57) 318 4544 760
+      <B>Cellphone</B>: (+57) 318 4544 760
     </P>
     <P>
-      <B>Email</B>: luissolivaresp@gmail.com
+      <B>Mail</B>: luissolivaresp@gmail.com
     </P>
   </Infocont>
 )

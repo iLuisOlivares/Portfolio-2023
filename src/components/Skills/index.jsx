@@ -35,7 +35,7 @@ export const Skills = () => {
     return (
         <SkillsSection id='skills'>
             <SkillsContainer>
-                <H2E>Habilidades</H2E>
+                <H2E>Skills</H2E>
                 <Carousel></Carousel>
             </SkillsContainer>
 

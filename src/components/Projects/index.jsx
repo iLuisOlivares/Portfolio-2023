@@ -29,9 +29,9 @@ export const Projects = () => {
     return (
         <ProjectsSection id='projects'>
             <ProjectsContainer>
-                <H2>Proyectos</H2>
+                <H2>Projects</H2>
                 <P>{content}</P>
-                <P>Trabajando en esta seccion... <H2 href="">Click here</H2> </P>
+                <P>Trabajando en esta seccion... <H2 href="">Click here in the future</H2> </P>
             </ProjectsContainer>
 
         </ProjectsSection >
