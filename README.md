@@ -27,7 +27,7 @@
 ```javascript
 const aboutMe = {
   fullName: "Luis Sebastian Olivares Puello",
-  nationality: "Colombia",
+  nationality: "Colombian",
   occupation: ["Fullstack developer", "systems engineer student"],
   hobbies: [ "Sports", "Video-games", "Travel", "Programming"],
 };
