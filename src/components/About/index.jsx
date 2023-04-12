@@ -7,6 +7,7 @@ import styled from 'styled-components';
 
 const AboutSection = styled.section`
   display: flex;
+  margin-top: 40px;
   flex-direction: column;
   justify-content: space-around;
   width: 100%;

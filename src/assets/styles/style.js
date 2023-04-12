@@ -11,16 +11,16 @@ export const GlobalStyles = createGlobalStyle`
 
 export const Container = styled.div`
     width: 85%;
-    max-width: 1250px;
+|    max-width: 1250px;
     margin: 0 auto;
 `;
 
 export const H1 = styled.h2`
-    color: #AF4C39;
+    color: #e97c3d;
 `;
 
 export const H1A = styled.h1`
-    color: #AF4C39;
+    color: #e97c3d;
     font-size: 2em;
     margin-bottom: 10px;
 
@@ -33,7 +33,7 @@ export const H1L = styled.h1`
 `;
 export const H2 = styled.h2`
     font-size: 2m ;
-    color: #AF4C39;
+    color: #e97c3d;
     border-width: 10px;
 `;
 
@@ -61,7 +61,7 @@ border-radius: 6px;
     color: #1F1E1B;
     font-size: 17px;
     font-weight: normal;
-    background-color: #AF4C39;
+    background-color: #e97c3d;
     border: 0;
     cursor: pointer;
     @media screen and (max-width: 900px) {
@@ -81,7 +81,7 @@ export const P = styled.p`
 
 export const B = styled.b`
   font-weight: bold;
-  color: #AF4C39;
+  color: #e97c3d;
 
   font-size:15px;
 `;

@@ -1,6 +1,6 @@
 import React from 'react'
 import { Container, ImgContainer } from '../../assets/styles/style'
-import about from '../../assets/images/about.jpg'
+import foto from '../../assets/images/Me4.jpg'
 import { Info } from './Info'
 import styled from 'styled-components';
 
@@ -22,7 +22,7 @@ const PresentationContainer = styled.div`
   height: auto;
   @media screen and (max-width: 900px) {
       height: 90vh;
-  flex-direction: column-reverse;
+  flex-direction: column-reverse
   justify-content: space-around;
   align-items: center;
 }
@@ -67,11 +67,11 @@ text-align: center;
 }
 `;
 const ImgPresentation2 = styled.div`
-  height: 350px;
-  width: 250px;
+  height: 400px;
+  width: 300px;
   text-align: center;
   transform: rotate(40deg);
-  background-color: #1a1919;
+  background-color: #292929;
   border-radius: 40% 20% 40% 30%/40% 40% 50% 30%;
   -webkit-box-shadow: 5px 6px 8px -10px rgb(20, 19, 16);
   position: absolute;
@@ -83,30 +83,48 @@ const ImgPresentation2 = styled.div`
 const ImgPresentation3 = styled(ImgPresentation2)`
 transform: rotate(67deg);
 opacity: 90%;
-background-color: #AF4C39;
-  border-radius: 20% 30% 23% 90%/60% 30% 70% 40%;
+background-color: #e97c3d;
+border-radius: 20% 30% 23% 90%/60% 30% 70% 40%;
 
-  -webkit-box-shadow: 5px 6px 8px -10px #141310;
+-webkit-box-shadow: 5px 6px 8px -10px #141310;
 `;
 
+const DemoWrap = styled.div`
+  overflow: hidden;
+  position: relative;
+`;
+const DemoBg = styled.img`
+   opacity: 0.1;
+   filter: blur(5px);
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: auto;
+`;
 
 export const Presentation = () => {
   return (
-    <PresentationSection id='home'>
-      <Container>
-        <PresentationContainer className='animate__animated animate__fadeInLeft'>
-          <InfoContainer>
-            <Info></Info>
-          </InfoContainer>
-          <ImgContainer>
-            <Imgs>
-              <ImgPresentation2 src={about} alt="" />
-              <ImgPresentation3 src={about} alt="" />
-              <ImgPresentation src={about} alt="" />
-            </Imgs>
-          </ImgContainer>
-        </PresentationContainer>
-      </Container>
-    </PresentationSection>
+    <DemoWrap>
+      <PresentationSection id='home'>
+        <Container>
+          <DemoBg
+            src={"https://thumbs.dreamstime.com/b/desktop-source-code-technology-background-developer-programer-coding-programming-wallpaper-computer-language-125215647.jpg"}
+          />
+          <PresentationContainer className='animate__animated animate__fadeInLeft'>
+            <InfoContainer>
+              <Info></Info>
+            </InfoContainer>
+            <ImgContainer>
+              <Imgs>
+                <ImgPresentation2 src={foto} alt="" />
+                <ImgPresentation3 src={foto} alt="" />
+                <ImgPresentation src={foto} alt="" />
+              </Imgs>
+            </ImgContainer>
+          </PresentationContainer>
+        </Container>
+      </PresentationSection>
+    </DemoWrap>
   )
 }

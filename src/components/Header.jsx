@@ -69,7 +69,7 @@ const NavItem = styled(LinkScroll)`
   
   &:hover {
     text-decoration: underline;
-    text-decoration-color: #AF4C39;
+    text-decoration-color: #e97c3d;
     cursor: pointer;
   }
 `;
@@ -86,7 +86,7 @@ const NavRouter = styled(LinkRouter)`
 
   &:hover {
     text-decoration: underline;
-    text-decoration-color: #AF4C39;
+    text-decoration-color: #e97c3d;
   }
 `;
 
@@ -94,7 +94,7 @@ const StyledIcon = styled(FontAwesomeIcon)`
   color: #E9E9DB;
   background-color: transparent;
   &:hover {
-    text-decoration-color: #AF4C39;
+    text-decoration-color: #e97c3d;
   }
 `
 

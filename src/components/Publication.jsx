@@ -31,6 +31,7 @@ const Pdate = styled(P)`
 `;
 const H1tittle = styled(H1)`
   margin-bottom: 2px;
+  color: #e97c3d
 
 `;
 

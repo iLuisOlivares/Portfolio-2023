@@ -1,4 +1,3 @@
-import React from 'react'
 import { Button, H1A } from '../../assets/styles/style'
 import styled from 'styled-components';
 
@@ -19,7 +18,7 @@ const PB = styled.p`
 
 const B = styled.b`
  color: #1F1E1B;
- background-color: #AF4C39;
+ background-color: #e97c3d;
  border-radius: 10px;
  padding: 5px;
  margin: 2px;
@@ -30,7 +29,7 @@ export const Info = () => {
   return (
     <div>
       <H1A>Luis Olivares</H1A>
-      <PB>web developer <B>Junior</B></PB>
+      <PB>Sotware developer <B>Junior</B></PB>
       <P>Systems engineering student, looking for new challenges and challenges.</P>
       <form action="https://docs.google.com/document/d/19H1VVRYTRw2cwequo2OUKi8_7Shs-KJu2wxNFeAymdQ/edit?usp=sharing">
         <Button type="submit">Download CV</Button>

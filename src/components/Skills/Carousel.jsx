@@ -38,7 +38,7 @@ const ImgDiv = styled.div`
     }
     :hover{
         border-radius: 20% 30% 23% 90%/60% 30% 70% 40%;
-        box-shadow: 0px 2px 1px 2px #af4d39b9;
+        box-shadow: 0px 2px 1px 2px #e97c3d;
     }
    
 `;
