@@ -22,8 +22,7 @@ const PresentationContainer = styled.div`
   height: auto;
   @media screen and (max-width: 900px) {
       height: 90vh;
-  flex-direction: column-reverse
-  justify-content: space-around;
+  flex-direction: column;
   align-items: center;
 }
 
