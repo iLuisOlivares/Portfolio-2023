@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.8557afab.css",
-    "main.js": "/static/js/main.27adeac8.js",
-    "static/media/Lucas1.jpg": "/static/media/Lucas1.c9ece5ec58ff719353f2.jpg",
-    "static/media/Me4.jpg": "/static/media/Me4.052ec4551dffdba3518c.jpg",
-    "static/media/Luis4.jpg": "/static/media/Luis4.141a0d39b6e3705685f9.jpg",
-    "static/media/Luis2.jpg": "/static/media/Luis2.21354e1dfae64d3ad1a0.jpg",
-    "static/media/Place.jpg": "/static/media/Place.ff0f2b66dd36110775db.jpg",
-    "static/media/Family.jpg": "/static/media/Family.25dbb33cd0bf81e09b37.jpg",
-    "index.html": "/index.html",
-    "main.8557afab.css.map": "/static/css/main.8557afab.css.map",
-    "main.27adeac8.js.map": "/static/js/main.27adeac8.js.map"
+    "main.css": "/portfolio_2023/static/css/main.8557afab.css",
+    "main.js": "/portfolio_2023/static/js/main.b91cc885.js",
+    "static/media/Lucas1.jpg": "/portfolio_2023/static/media/Lucas1.c9ece5ec58ff719353f2.jpg",
+    "static/media/Me4.jpg": "/portfolio_2023/static/media/Me4.052ec4551dffdba3518c.jpg",
+    "static/media/Luis4.jpg": "/portfolio_2023/static/media/Luis4.141a0d39b6e3705685f9.jpg",
+    "static/media/Luis2.jpg": "/portfolio_2023/static/media/Luis2.21354e1dfae64d3ad1a0.jpg",
+    "static/media/Place.jpg": "/portfolio_2023/static/media/Place.ff0f2b66dd36110775db.jpg",
+    "static/media/Family.jpg": "/portfolio_2023/static/media/Family.25dbb33cd0bf81e09b37.jpg",
+    "index.html": "/portfolio_2023/index.html",
+    "main.8557afab.css.map": "/portfolio_2023/static/css/main.8557afab.css.map",
+    "main.b91cc885.js.map": "/portfolio_2023/static/js/main.b91cc885.js.map"
   },
   "entrypoints": [
     "static/css/main.8557afab.css",
-    "static/js/main.27adeac8.js"
+    "static/js/main.b91cc885.js"
   ]
 }
