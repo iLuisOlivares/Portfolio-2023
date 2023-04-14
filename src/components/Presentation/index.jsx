@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container, ImgContainer } from '../../assets/styles/style'
+import { Container, ImgContainer, ImgPresentation2, ImgPresentation3 } from '../../assets/styles/style'
 import foto from '../../assets/images/Me4.jpg'
 import { Info } from './Info'
 import styled from 'styled-components';
@@ -28,6 +28,7 @@ const PresentationContainer = styled.div`
 
 `;
 
+
 const InfoContainer = styled.div`
 width: 50%;
 height: 500px;
@@ -54,38 +55,16 @@ const Imgs = styled.div`
 `;
 
 
+
 const ImgPresentation = styled.img`
   height: 350px;
 text-align: center;
   border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
   position: absolute;
-
   @media screen and (max-width: 900px) {
       margin: 10px;
     height: 250px;
 }
-`;
-const ImgPresentation2 = styled.div`
-  height: 400px;
-  width: 300px;
-  text-align: center;
-  transform: rotate(40deg);
-  background-color: #292929;
-  border-radius: 40% 20% 40% 30%/40% 40% 50% 30%;
-  -webkit-box-shadow: 5px 6px 8px -10px rgb(20, 19, 16);
-  position: absolute;
-  @media screen and (max-width: 900px) {
-      margin: 10px;
-    height: 250px;
-}
-`;
-const ImgPresentation3 = styled(ImgPresentation2)`
-transform: rotate(67deg);
-opacity: 90%;
-background-color: #e97c3d;
-border-radius: 20% 30% 23% 90%/60% 30% 70% 40%;
-
--webkit-box-shadow: 5px 6px 8px -10px #141310;
 `;
 
 const DemoWrap = styled.div`
@@ -101,6 +80,9 @@ const DemoBg = styled.img`
   width: 100%;
   height: auto;
 `;
+
+
+
 
 export const Presentation = () => {
   return (

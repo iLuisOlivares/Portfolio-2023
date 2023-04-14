@@ -30,7 +30,7 @@ export const Info = () => {
     <div>
       <H1A>Luis Olivares</H1A>
       <PB>Sotware developer <B>Junior</B></PB>
-      <P>Systems engineering student, looking for new challenges and challenges.</P>
+      <P>Systems engineering student, looking for new challenges.</P>
       <form action="https://docs.google.com/document/d/19H1VVRYTRw2cwequo2OUKi8_7Shs-KJu2wxNFeAymdQ/edit?usp=sharing">
         <Button type="submit">Download CV</Button>
       </form>

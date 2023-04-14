@@ -1,7 +1,7 @@
 import React from 'react'
 import { Carousel } from './Carousel'
 import styled from 'styled-components';
-import { H2 } from '../../assets/styles/style';
+import { FlexTitle, H2 } from '../../assets/styles/style';
 
 const SkillsSection = styled.section`
   height: 70vh;
@@ -20,13 +20,24 @@ const SkillsContainer = styled.div`
     justify-content: center;
     align-items: center;
     flex-direction: column;
+  -webkit-box-shadow: 0px 15px 40px -10px #000000;
+  padding: 20px;
+  border-radius: 10px;
+  width: 980px;
+
+  @media screen and (max-width: 900px) {
+      width: 340px;
+
+  }
+  
+    
 
 `;
 
 const H2E = styled(H2)`
-    margin-bottom: 10px;
-    margin-top: 25px ;
+    margin: 5px;
 `;
+
 
 
 
@@ -35,7 +46,10 @@ export const Skills = () => {
     return (
         <SkillsSection id='skills'>
             <SkillsContainer className='animate__animated animate__fadeInLeft'>
-                <H2E>Skills</H2E>
+                <FlexTitle>
+
+                    <H2E>Skills</H2E>
+                </FlexTitle>
                 <Carousel></Carousel>
             </SkillsContainer>
 
