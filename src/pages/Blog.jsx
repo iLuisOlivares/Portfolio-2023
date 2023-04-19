@@ -34,26 +34,26 @@ const BlogContainer = styled.div`
 const publications = [
   {
     tittle: "My pet Lucas 🐾",
-    content: "Lucas was my best friend, he taught me what it was to love and how much it hurt to lose something that really matters to you. He was and always will be one of the most important living beings for me. He was a crazy dog, but most of the time he was very calm. He wasn't really a dog that made a lot of noise, but just sitting next to you already felt the support you needed to keep going. He also knew how to spread happiness. Every memory I have of him is filled with this feeling. like jumping when he knew that We would go for a walk, the times we did races and he beat me, walking on the beach and sleeping together will simply be the best memories of my life. I miss you Lucas and I will always get ahead for you ❤️.",
+    content: "Lucas was my best friend, he taught me what love was and how much it hurt to lose something that truly mattered to you. He was and will always be really important to me. He was a little crazy, but most of the time he was very calm. He wasn't really a noisy dog, but just sitting next to him made you feel the support you needed to keep going. He also knew how to spread happiness. Every memory I have of him is filled with this feeling, like jumping around when he knew we were going for a walk, the times we raced and he beat me, walking on the beach and sleeping together will simply be the best memories of my life. I miss you Lucas and I will always push forward for you ❤️.",
     img: Luis4,
     date: "2023-03-25"
 
   },
   {
     tittle: "Who is Luis 👋🏼",
-    content: "Luis for friends, Sebastian for family, I am Luis Olivares, a cheerful person who loves to be surrounded by friends with whom to share new experiences and create memories that I know I will be happy with when I look back in the future. I am a hardworking, kind, and very responsible person. What I like most in life is to engage in physical activities, go out with my friends, and try new things. My biggest dream is find my ideal place.",
+    content: "Luis to friends, Sebastián to family, I am Luis Olivares, a cheerful person who loves being surrounded by friends with whom to share new experiences and create memories that I know I will be happy to look back on in the future. I am a hardworking, kind, and very responsible person. What I love most in life is doing physical activities, going out with my friends, and trying new things. My biggest dream is to be happy and to be able to say at some point in my life that I am in my ideal place.",
     img: Me,
     date: "2023-03-25"
   },
   {
     tittle: "My Family 👨‍👩‍👦‍👦",
-    content: "My family is the most important thing in my life and each one of them has a special place in my heart. My father is a strong and disciplined person, a true example to follow. I have always been proud of him and everything he has accomplished in his life. My mother, on the other hand, is a caring woman even though she doesn't show it openly, she has always been there for me, supporting me and doing everything possible to make me happy. I really enjoy walking and talking with her. My brother is the funniest and smartest boy that I know. Although we don't always get along, he is probably the person I love the most in the world. Also, he always makes me laugh.",
+    content: "My family is the most important thing in my life, and each of them has a special place in my heart. My father is a strong and disciplined person, a true role model. I have always felt proud of him and everything he has achieved in his life. My mother, on the other hand, is a loving woman, although she doesn't show it openly. She has always been there for me, supporting me, and doing everything possible to make me happy. I enjoy walking and talking with her a lot. My brother is the funniest and smartest kid I know. Although we don't always get along, he is the person I love the most in the world. Besides, he always makes me laugh. Lucas, our pet, was another family member who has passed away but still lives on in our hearts. We loved him so much. Fortunately, Valiente, our new pet, arrived and has filled the void that Lucas left. Family is something I must always take care of and cherish; they are my greatest treasure.",
     img: Family,
     date: "2023-03-25"
   },
   {
     tittle: "My outdoor hobbies 🏞️",
-    content: "I love being an active person and always being on the move. Since I was little, I've enjoyed playing soccer ⚽️, basketball 🏀, swimming 🏊‍♂️, and any other sport 🤸🏼. I also love to explore, on land or in the water, actually I love do scuba diving 🌊. It's no secret that I'm passionate about physical activities that challenge me to run, jump, and move, especially if it's with friends. For me, life is an adventure that I love to explore through my constantly moving body and mind ⛹️, This photo is when I went to the coffe-park ☕️ in armenia, It was a very fun and active day.",
+    content: "I love being an active person and always being on the move. Since I was a child, I have enjoyed playing soccer ⚽️, basketball 🏀, swimming 🏊‍♂️, and any other sport 🤸🏼. I also love exploring the underwater world with scuba diving 🌊. It's no secret that I am passionate about physical activities that challenge me to run, jump, and move, especially if it's with friends. For me, life is an adventure that I love to explore through my constantly moving body and mind ⛹️. This photo is when I went to the coffe-park ☕️ in armenia, It was a very fun and active day",
     img: Place,
     date: "2023-03-25"
   },
