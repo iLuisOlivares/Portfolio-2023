@@ -34,32 +34,32 @@ const BlogContainer = styled.div`
 const publications = [
   {
     tittle: "My pet Lucas 🐾",
-    content: "Lucas was my best friend, he taught me what it was to love and how much it hurt to lose something that really matters to you. He was and always will be one of the most important living beings for me. He was a crazy person, but most of the time he was very calm. He wasn't really a dog that made a lot of noise, but just sitting next to you already felt the support you needed to keep going. He also knew how to spread happiness. Every memory I have of him is filled with this feeling. like jumping when he knew that We would go for a walk, the times we did races and he beat me, walking on the beach and sleeping together will simply be the best memories of my life. I miss you Lucas and I will always get ahead for you ❤️.",
+    content: "Lucas was my best friend, he taught me what it was to love and how much it hurt to lose something that really matters to you. He was and always will be one of the most important living beings for me. He was a crazy dog, but most of the time he was very calm. He wasn't really a dog that made a lot of noise, but just sitting next to you already felt the support you needed to keep going. He also knew how to spread happiness. Every memory I have of him is filled with this feeling. like jumping when he knew that We would go for a walk, the times we did races and he beat me, walking on the beach and sleeping together will simply be the best memories of my life. I miss you Lucas and I will always get ahead for you ❤️.",
     img: Luis4,
     date: "2023-03-25"
 
   },
   {
     tittle: "Who is Luis 👋🏼",
-    content: "Luis for friends, Sebastian for family, I am Luis Olivares, a cheerful person who loves to be surrounded by friends with whom to share new experiences and create memories that he knows he will be happy with when he looks back in the future. I am a hardworking, kind, and very responsible person. What I like most in life is to engage in physical activities, go out with my friends, and try new things. My biggest dream is to be happy and that at some point in my life I can say that I am in my ideal place.",
+    content: "Luis for friends, Sebastian for family, I am Luis Olivares, a cheerful person who loves to be surrounded by friends with whom to share new experiences and create memories that I know I will be happy with when I look back in the future. I am a hardworking, kind, and very responsible person. What I like most in life is to engage in physical activities, go out with my friends, and try new things. My biggest dream is find my ideal place.",
     img: Me,
     date: "2023-03-25"
   },
   {
     tittle: "My Family 👨‍👩‍👦‍👦",
-    content: "My family is the most important thing in my life and each one of them has a special place in my heart. My father is a strong and disciplined person, a true example to follow. I have always been proud of him and everything he has accomplished in his life. My mother, on the other hand, is a caring woman even though she doesn't show it openly, she has always been there for me, supporting me and doing everything possible to make me happy. I really enjoy walking and talking with her. My brother is the funniest and smartest boy I know. Although we don't always get along, he is the person I love the most in the world. Also, he always makes me laugh. Lucas, our mascot, was one more member who has passed away but is still alive in our hearts, we loved him so much. Luckily, Valiente arrived, our new mascot, who has brightened the void left by Lucas. Family is something that I must always take care of and value, they are my greatest treasure.",
+    content: "My family is the most important thing in my life and each one of them has a special place in my heart. My father is a strong and disciplined person, a true example to follow. I have always been proud of him and everything he has accomplished in his life. My mother, on the other hand, is a caring woman even though she doesn't show it openly, she has always been there for me, supporting me and doing everything possible to make me happy. I really enjoy walking and talking with her. My brother is the funniest and smartest boy that I know. Although we don't always get along, he is probably the person I love the most in the world. Also, he always makes me laugh.",
     img: Family,
     date: "2023-03-25"
   },
   {
     tittle: "My outdoor hobbies 🏞️",
-    content: "I love being an active person and always being on the move. Since I was little, I've enjoyed playing soccer ⚽️, basketball 🏀, swimming 🏊‍♂️, and any other sport 🤸🏼. I also love to explore, both on land and in the water, which is why I love diving 🌊. It's no secret that I'm passionate about physical activities that challenge me to run, jump, and move, especially if it's with friends. For me, life is an adventure that I love to explore through my constantly moving body and mind ⛹️, This photo is when I went to the coffe-park ☕️ in armenia, It was a very fun and active day.",
+    content: "I love being an active person and always being on the move. Since I was little, I've enjoyed playing soccer ⚽️, basketball 🏀, swimming 🏊‍♂️, and any other sport 🤸🏼. I also love to explore, on land or in the water, actually I love do scuba diving 🌊. It's no secret that I'm passionate about physical activities that challenge me to run, jump, and move, especially if it's with friends. For me, life is an adventure that I love to explore through my constantly moving body and mind ⛹️, This photo is when I went to the coffe-park ☕️ in armenia, It was a very fun and active day.",
     img: Place,
     date: "2023-03-25"
   },
   {
     tittle: "My hobbies in general 🏓",
-    content: "Since I was a child, I have been passionate about technology and video games 🕹️. That's why I got involved in the world of software development 🧑‍💻 and why I decided to study systems engineering. Now, my hobbies consist of learning new things about programming and technology 💻️, Go out with my friends 🌇 and enjoying the occasional series of comedy, romance or something related to superpowers 🦸, yes... sounds a bit nerdy hahaha. One os the most important things in my life is to be able to share my hobbies with my friends and family, that's why I love to go out with them and have a good time.",
+    content: "Since I was a child, I have been passionate about technology and video games 🕹️. That's why I got involved in the world of software development 🧑‍💻 and why I decided to study systems engineering. Now, my hobbies consist of learning new things about programming and technology 💻️, Go out with my friends 🌇 and enjoying the occasional series of comedy, romance or something related to superpowers 🦸. One os the most important things in my life is to be able to share my hobbies with my friends and family, that's why I love to go out with them and have a good time.",
     img: Luis2,
     date: "2023-03-25"
   }
