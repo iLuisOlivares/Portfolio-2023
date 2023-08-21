@@ -1,6 +1,6 @@
 import React from 'react'
 import { Container, ImgContainer, ImgPresentation2, ImgPresentation3 } from '../../assets/styles/style'
-import foto from '../../assets/images/Me4.jpg'
+import foto from '../../assets/images/Me42.jpg'
 import { Info } from './Info'
 import styled from 'styled-components';
 

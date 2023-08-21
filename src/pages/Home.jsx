@@ -11,7 +11,7 @@ export const Home = () => {
 
   const HomseSection = styled.div`
 @media screen and (max-width: 900px) {
-  margin-top: 100px;
+  margin-top: 100px; 
 }
 
 `;
