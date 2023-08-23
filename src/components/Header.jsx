@@ -1,13 +1,15 @@
 import React from 'react';
-import styled from 'styled-components';
+import styled, { keyframes } from 'styled-components';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
 import { Link as LinkScroll } from 'react-scroll';
 import { Link as LinkRouter, useLocation } from 'react-router-dom';
+import { Container, SpanA, SpanB, SpanG, decorationanimated, letrasanimated } from '../assets/styles/style';
 const HeaderContainer = styled.header`
   position: fixed;
   top: 0;
-  width: 97%;
+  width: 82%;
+  border-radius: 0px 0px 10px 10px;
   padding: 20px;
   z-index: 2;
   display: flex;
@@ -15,7 +17,7 @@ const HeaderContainer = styled.header`
   justify-content: space-between;
   align-items: center;
   background-color: #1a1919;
-  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  /* box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); */
   @media (max-width: 900px) {
     margin-bottom: 60px;
     width: 100%;
@@ -26,13 +28,16 @@ const HeaderContainer = styled.header`
   }
 `;
 
+
+
 const Logo = styled.h1`
   font-size: 24px;
   margin: 10px;
   font-weight: bold;
-  color: #333333;
   color: #E9E9DB;
+
 `;
+
 
 
 const MenuButton = styled.button`
@@ -52,9 +57,8 @@ const NavMenu = styled.nav`
   flex-direction: row;
   justify-content: flex-end;
   align-items: center;
-
-
 `;
+
 
 const NavItem = styled(LinkScroll)`
   margin: 15px;
@@ -68,11 +72,14 @@ const NavItem = styled(LinkScroll)`
   }
   
   &:hover {
-    text-decoration: underline;
-    text-decoration-color: #e97c3d;
+    text-decoration: overline;
+    animation: ${decorationanimated} 2s ease-in-out infinite;
+    transition: all 0.5s ease-in-out;
     cursor: pointer;
   }
 `;
+
+
 const NavRouter = styled(LinkRouter)`
   margin: 15px;
   font-size: 16px;
@@ -86,7 +93,7 @@ const NavRouter = styled(LinkRouter)`
 
   &:hover {
     text-decoration: underline;
-    text-decoration-color: #e97c3d;
+    
   }
 `;
 
@@ -98,28 +105,34 @@ const StyledIcon = styled(FontAwesomeIcon)`
   }
 `
 
-const logo = '<LuihOli>'
+const left = "<"
+const right = ">"
+const logo = "LuisOli"
 const Header = () => {
   const location = useLocation();
   return (
-    <HeaderContainer>
-      <Logo>{logo}</Logo>
-      <NavMenu>
-        {
-          location.pathname === '/' ? <div>
-            <NavItem to='home' spy={true} smooth={true} offset={-200} duration={500}>Home</NavItem>
-            <NavItem to="about" spy={true} smooth={true} offset={-200} duration={500}>About</NavItem>
-            <NavItem to='skills' spy={true} smooth={true} offset={-80} duration={500}>Skills</NavItem>
-            <NavItem to='projects' spy={true} smooth={true} offset={0} duration={500}>Projects</NavItem>
-            <NavRouter to='/blog'>Blog</NavRouter>
-          </div> : <div>
-            <NavRouter to='/#'>Home</NavRouter>
-            <NavRouter to='/blog'>Blog</NavRouter>
-          </div>
-        }
 
-      </NavMenu>
-    </HeaderContainer>
+
+    <Container>
+      <HeaderContainer>
+        <Logo><SpanA>{left}</SpanA> {logo} <SpanG>{right}</SpanG></Logo>
+        <NavMenu>
+          {
+            location.pathname === '/' ? <div>
+              <NavItem to='home' spy={true} smooth={true} offset={-200} duration={500}>Home</NavItem>
+              <NavItem to="about" spy={true} smooth={true} offset={-200} duration={500}>About</NavItem>
+              <NavItem to='skills' spy={true} smooth={true} offset={-80} duration={500}>Skills</NavItem>
+              <NavItem to='projects' spy={true} smooth={true} offset={0} duration={500}>Projects</NavItem>
+              {/* <NavRouter to='/blog'>Blog</NavRouter> */}
+            </div> : <div>
+              <NavRouter to='/#'>Home</NavRouter>
+              <NavRouter to='/blog'>Blog</NavRouter>
+            </div>
+          }
+
+        </NavMenu>
+      </HeaderContainer>
+    </Container>
   );
 };
 

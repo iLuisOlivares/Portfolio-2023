@@ -70,6 +70,7 @@ text-align: center;
 const DemoWrap = styled.div`
   overflow: hidden;
   position: relative;
+  background-color: rgb(26, 25, 25);
 `;
 const DemoBg = styled.img`
    opacity: 0.1;
@@ -89,9 +90,9 @@ export const Presentation = () => {
     <DemoWrap>
       <PresentationSection id='home'>
         <Container>
-          <DemoBg
+          {/* <DemoBg
             src={"https://thumbs.dreamstime.com/b/desktop-source-code-technology-background-developer-programer-coding-programming-wallpaper-computer-language-125215647.jpg"}
-          />
+          /> */}
           <PresentationContainer className='animate__animated animate__fadeInLeft'>
             <InfoContainer>
               <Info></Info>

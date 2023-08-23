@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components';
-import { H2, P } from '../../assets/styles/style';
+import { H2, P, SpanB } from '../../assets/styles/style';
 
 
 const ProjectsSection = styled.section`
@@ -59,7 +59,7 @@ export const Projects = () => {
 
                 />
                 <ProjectsContainer className='animate__animated animate__fadeInLeft'>
-                    <H2>Projects</H2>
+                    <H2><SpanB>Projects</SpanB></H2>
                     <P>{content}</P>
                     <P>Working in this section...<H2 href="">SOON AS POSIBLE</H2>
                     </P>

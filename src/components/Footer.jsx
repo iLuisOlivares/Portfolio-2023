@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { SpanA, SpanB, SpanR } from '../assets/styles/style';
 
 const FooterContainer = styled.footer`
   background-color: #1a1a1a;
@@ -19,7 +20,7 @@ const FooterContainer = styled.footer`
 
 const FooterText = styled.p`
   margin: 0;
-  font-size: 14px;
+  font-size: 16px;
 `;
 
 const SocialIconsContainer = styled.div`
@@ -46,7 +47,9 @@ const Container = styled.div`
 `;
 
 const Footer = () => {
-  const logo = '< /LuihOli>'
+  const left = "</"
+  const right = ">"
+  const logo = "LuisOli"
 
   return (
     <FooterContainer>
@@ -56,7 +59,8 @@ const Footer = () => {
           <SocialIcon href="https://github.com/iLuisOlivares"><i class="fa-brands fa-github"></i></SocialIcon>
           <SocialIcon href="mailto:luissolivaresp@gmail.com"><i class="fa-solid fa-envelope"></i></SocialIcon>
         </SocialIconsContainer>
-        <FooterText> © 2023 {logo}</FooterText>
+        <FooterText> © 2023  <SpanB> {left}</SpanB>{logo}<SpanR>{right}</SpanR>
+        </FooterText>
       </Container>
     </FooterContainer>
 

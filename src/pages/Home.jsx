@@ -12,6 +12,7 @@ export const Home = () => {
   const HomseSection = styled.div`
 @media screen and (max-width: 900px) {
   margin-top: 100px; 
+  background-color:rgb(26, 25, 25);
 }
 
 `;

@@ -1,5 +1,5 @@
 import React from 'react'
-import { B } from '../../assets/styles/style'
+import { B, SpanA } from '../../assets/styles/style'
 import styled from 'styled-components';
 
 
@@ -17,7 +17,7 @@ const Infocont = styled.div`
 `;
 
 const P = styled.p`
-  font-size:15px;
+  font-size:20px;
   margin: 2px;
   color: #E9E9DB;
   padding: 10px;
@@ -26,10 +26,17 @@ const P = styled.p`
 export const PersonalInfo = () => (
   <Infocont>
     <P>
-      <B>Cellphone</B>: (+57) 318 4544 760
+      <SpanA><b>Cellphone:</b></SpanA> (+57) 318 4544 760
     </P>
     <P>
-      <B>Mail</B>: luissolivaresp@gmail.com
+      <SpanA><b>Email:</b></SpanA> luissolivaresp@gmail.com
     </P>
+    {/* <P>
+      <SpanB><b>Cellphone: </b></SpanB> (+57) 318 4544 760
+    </P>
+    <P>
+
+      <SpanB><b>Email: </b></SpanB> luissolivaresp@gmail.com
+    </P> */}
   </Infocont>
 )

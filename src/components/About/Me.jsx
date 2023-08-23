@@ -1,16 +1,23 @@
 import React from 'react'
 import styled from 'styled-components';
+import { H2, SpanA, SpanBlacSpanBlack, SpanBlack, SpanG, SpanR } from '../../assets/styles/style';
 
 const P = styled.p`
     color: #E9E9DB;
-    font-size: 15px;
+    font-size: 20px;
 `;
 
 export const Me = () => {
   return (
     <div>
-      <P class="text">I am Luis Olivares, a systems engineering student in the eighth semester of the University of Cartagena, Colombia.</P>
-      <P class="text">I am currently focused on web development, exploring and acquiring knowledge in a self-taught way through various platforms and online courses, however any field related to technology seems extremely interesting to me, I am passionate about technology and I love learning new skills and concepts related to it.</P>
+      <H2 style={{ textAlign: "center" }}><SpanA>Me</SpanA></H2>
+      <P class="text">Hey! <SpanBlack>I'm Luis Olivares</SpanBlack>, a systems engineering student in the ninth semester of the University of Cartagena, Colombia.</P>
+      <P class="text">I am currently dedicated to <SpanBlack>web development</SpanBlack>, immersing myself in self-guided exploration and knowledge acquisition. Nevertheless, <SpanBlack>my ardent passion for technology</SpanBlack> makes any tech-related domain exceptionally captivating to me. I'm at the outset of my journey, poised to craft my unique narrative.</P>
+
+
+
+
+
     </div>
   )
 }

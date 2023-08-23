@@ -22,11 +22,13 @@ grid-template-rows: repeat(3, 1fr);
 const ImgDiv = styled.div`
     height: 120px;
     width: 100px;
-    background-color: #141310;
+    background-color: #00000083;
     padding: 10px;
     border-radius: 10%;
     margin: 30px;
--webkit-box-shadow: 0px 6px 10px -10px #5f5c5c;
+-webkit-box-shadow: 0px 15px 10px -10px #0f0d0d;
+transition: all 0.5s ease-in-out;
+
     @media screen and (max-width: 900px) {
         height: 50px;
         display: flex;
@@ -37,15 +39,16 @@ const ImgDiv = styled.div`
 
     }
     :hover{
-        border-radius: 20% 30% 23% 90%/60% 30% 70% 40%;
-        box-shadow: 0px 2px 1px 2px #e97c3d;
+-webkit-box-shadow: 0px 10px 10px -8px #9dff65;
+
     }
    
 `;
 
 const Img = styled.img`
     height: 50px;
-    filter: grayscale(.9);
+    padding: 12px;
+    /* filter: grayscale(.9); */
     @media screen and (max-width: 900px) {
     height: 20px;
     margin: 5px;

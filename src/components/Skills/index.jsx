@@ -1,7 +1,7 @@
 import React from 'react'
 import { Carousel } from './Carousel'
 import styled from 'styled-components';
-import { FlexTitle, H2 } from '../../assets/styles/style';
+import { FlexTitle, H2, SpanA, SpanG } from '../../assets/styles/style';
 
 const SkillsSection = styled.section`
   height: 70vh;
@@ -47,13 +47,12 @@ export const Skills = () => {
         <SkillsSection id='skills'>
             <SkillsContainer className='animate__animated animate__fadeInLeft'>
                 <FlexTitle>
-
-                    <H2E>Skills</H2E>
+                    <H2E><SpanG>Skills</SpanG></H2E>
                 </FlexTitle>
                 <Carousel></Carousel>
             </SkillsContainer>
 
 
-        </SkillsSection>
+        </SkillsSection >
     )
 }
