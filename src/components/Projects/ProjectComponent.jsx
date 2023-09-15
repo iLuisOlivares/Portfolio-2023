@@ -13,7 +13,7 @@ const techData = {
     'swagger': 'https://res.cloudinary.com/iluiss/image/upload/v1694811113/Logos/utssjj8wb0vuq1zy4x12.png',
     'python': 'https://res.cloudinary.com/iluiss/image/upload/v1694811632/Logos/kjydbpkrhsj3ubgoumv0.png',
     'opencv': 'https://res.cloudinary.com/iluiss/image/upload/v1694811707/Logos/sthghslkjiwzlfdlnu7k.png',
-    'sklearn': ''
+    'sklearn': 'https://res.cloudinary.com/iluiss/image/upload/v1694811709/Logos/ukjggbdi5pujtv11sv5a.png'
 }
 
 const ProjectContainer = styled.div`
