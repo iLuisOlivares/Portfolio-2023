@@ -59,7 +59,7 @@ export const Info = () => {
       <H1A>Luis Olivares</H1A>
       <PB>Sotware developer </PB>
       <P>Systems engineering student, looking for new challenges.</P>
-      <form action="https://docs.google.com/document/d/19H1VVRYTRw2cwequo2OUKi8_7Shs-KJu2wxNFeAymdQ/edit?usp=sharing">
+      <form action="https://drive.google.com/file/d/1BUDqkyfj1uGI2iKJthRzjpMW4uxpoEri/view?usp=sharing">
         <Button type="submit"><i class="fa-solid fa-file-arrow-down"></i></Button>
       </form>
     </div>

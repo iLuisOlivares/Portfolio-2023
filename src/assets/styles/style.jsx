@@ -13,10 +13,16 @@ export const Container = styled.div`
   width: 85%;
   max-width: 1250px;
   margin: 0 auto;
+   @media screen and (max-width: 900px) {
+  width: 100%;
+
+}
 `;
 
 export const H1 = styled.h2`
   color: #fffefe;
+  
+  
 `;
 
 export const H1A = styled.h1`
@@ -48,9 +54,9 @@ export const ImgContainer = styled.div`
   display: flex;
   align-items: center;
   @media screen and (max-width: 640px) {
-    margin: 5px;
     height: 290px;
     width: 320px;
+    margin: 50px;
   }
 `;
 

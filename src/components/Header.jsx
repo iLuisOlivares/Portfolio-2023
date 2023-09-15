@@ -107,7 +107,7 @@ const StyledIcon = styled(FontAwesomeIcon)`
 
 const left = "<"
 const right = ">"
-const logo = "LuisOli"
+const logo = "LO"
 const Header = () => {
   const location = useLocation();
   return (

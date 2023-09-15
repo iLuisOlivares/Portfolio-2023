@@ -24,7 +24,7 @@ const ImgDiv = styled.div`
     width: 100px;
     background-color: #00000083;
     padding: 10px;
-    border-radius: 10%;
+    border-radius: 5%;
     margin: 30px;
 -webkit-box-shadow: 0px 15px 10px -10px #0f0d0d;
 transition: all 0.5s ease-in-out;
@@ -47,11 +47,24 @@ transition: all 0.5s ease-in-out;
 
 const Img = styled.img`
     height: 50px;
-    padding: 12px;
+    padding: 5px;
     /* filter: grayscale(.9); */
     @media screen and (max-width: 900px) {
     height: 20px;
     margin: 5px;
+    }
+    margin-top: 10px;
+
+`;
+
+const Ps = styled.p`
+padding: 5px;
+font-size: 16px;
+margin-bottom: 10px;
+margin-top: 2px;
+@media screen and (max-width: 900px) {
+    height: 20px;
+    margin-bottom: 2px;
     }
 `;
 
@@ -59,29 +72,29 @@ const Img = styled.img`
 export const Carousel = () => {
 
     return (
-        <Slider>
-            <ImgDiv>
+        <Slider >
+            <ImgDiv >
                 <Img src={js} alt="javascript" />
-                <P>Javascript</P>
+                <Ps>Javascript</Ps>
             </ImgDiv>
-            <ImgDiv>
+            <ImgDiv >
                 <Img src={react} alt="React" />
-                <P>React</P>
+                <Ps>React</Ps>
 
             </ImgDiv>
-            <ImgDiv>
+            <ImgDiv >
                 <Img src={java} alt="Java" />
-                <P>Java</P>
+                <Ps>Java</Ps>
 
             </ImgDiv>
-            <ImgDiv>
+            <ImgDiv >
                 <Img src={springboot} alt="springboot" />
-                <P>SpringBoot</P>
+                <Ps>SpringBoot</Ps>
 
             </ImgDiv>
-            <ImgDiv>
+            <ImgDiv >
                 <Img src={git} alt="Git" />
-                <P>Git</P>
+                <Ps>Git</Ps>
             </ImgDiv>
 
         </Slider>

@@ -1,18 +1,17 @@
 import React from 'react'
 import styled from 'styled-components';
 import { H2, P, SpanB } from '../../assets/styles/style';
+import { ProjectComponent } from './ProjectComponent';
 
 
 const ProjectsSection = styled.section`
-  height: 50vh;
   width: 100%;
   display: flex ;
   justify-content: center;
   justify-items: center;
   align-items: center;
   @media screen and (max-width: 900px) {
-  height: 70vh;
-
+    padding-top: 50px;
   }
 `;
 
@@ -37,7 +36,16 @@ const ProjectsContainer = styled.div`
 const DemoWrap = styled.div`
   overflow: hidden;
   position: relative;
+  padding-bottom: 40px;
 `;
+
+const Divflex = styled.div`
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+`;
+
 const DemoBg = styled.img`
    opacity: 0.2;
    filter: blur(30px);
@@ -48,24 +56,55 @@ const DemoBg = styled.img`
   height: auto;
 `;
 
-const content = "<  Comming soon / >"
+const SocialIcon = styled.a`
+  color: #fff;
+  font-size: 20px;
+`;
 export const Projects = () => {
 
-    return (
-        <DemoWrap>
-            <ProjectsSection id='projects'>
-                <DemoBg
-                    src="https://p4.wallpaperbetter.com/wallpaper/218/743/753/digital-art-orange-background-black-white-wallpaper-preview.jpg"
+  return (
+    <DemoWrap>
+      <ProjectsSection id='projects'>
+        <DemoBg
 
-                />
-                <ProjectsContainer className='animate__animated animate__fadeInLeft'>
-                    <H2><SpanB>Projects</SpanB></H2>
-                    <P>{content}</P>
-                    <P>Working in this section...<H2 href="">SOON AS POSIBLE</H2>
-                    </P>
-                </ProjectsContainer>
+        />
+        <ProjectsContainer className='animate__animated animate__fadeInLeft'>
+          <H2><SpanB>Projects</SpanB></H2>
 
-            </ProjectsSection >
-        </DemoWrap>
-    )
+
+          <ProjectComponent title={"SuperHeroe App"}
+            type={"Fullstack Project"}
+            description={"A superhero web page where you can find all of your favorite superheroess"}
+            tech={['react', 'django', 'postgre', 'bootstrap']}
+            imgL={"https://res.cloudinary.com/iluiss/image/upload/v1693763084/Heroes/m9w8fns8inqqaggihxsh.png"}
+          ></ProjectComponent>
+          <ProjectComponent title={"Nuestros recuerdos"}
+            type={"Fullstack Project"}
+            description={"A website with a timeline where you can treasure your favorite memories"}
+            tech={['react', 'springboot', 'mysql', 'css']}
+            imgL={"https://res.cloudinary.com/iluiss/image/upload/v1694809630/Recuerdos%20Lucas/cd7xpslibzpksywituqo.png"}
+          ></ProjectComponent>
+          <ProjectComponent title={"Mechanical Assistant - Api Rest"}
+            type={"Backend Project"}
+            description={"REST API for mechanical services in the city of Cartagena"}
+            tech={['springboot', 'springsecurity', 'postgre', 'swagger']}
+            imgL={"https://res.cloudinary.com/iluiss/image/upload/v1694811056/Logos/oh1enlt88mavcik0dbsq.png"}
+          ></ProjectComponent>
+          <ProjectComponent title={"cape gooseberry and strawberry classifier"}
+            type={"Artificial Intelligence Project"}
+            description={"A classifier that identifies cape gooseberry and strawberry in an image using the opencv library and the sklearn library in python"}
+            tech={['python', 'sklearn', 'opencv']}
+            imgL={"https://res.cloudinary.com/iluiss/image/upload/v1694812372/Logos/urfs8a1xupjnesroxab3.png"}
+          ></ProjectComponent>
+
+          <Divflex>
+            <h5>More projects in my github</h5>
+            <SocialIcon href="https://github.com/iLuisOlivares"><i class="fa-brands fa-github"></i></SocialIcon>
+
+          </Divflex>
+        </ProjectsContainer>
+
+      </ProjectsSection >
+    </DemoWrap >
+  )
 }

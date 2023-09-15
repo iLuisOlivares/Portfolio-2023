@@ -3,6 +3,8 @@ import { Container, ImgContainer, ImgPresentation2, ImgPresentation3 } from '../
 import foto from '../../assets/images/Me42.jpg'
 import { Info } from './Info'
 import styled from 'styled-components';
+import mouse from '../../assets/images/mouse.svg';
+import { MouseIcon } from './MouseIcon';
 
 const PresentationSection = styled.section`
   display: flex;
@@ -10,9 +12,9 @@ const PresentationSection = styled.section`
   justify-content: space-around;
   height: 100vh;
   width: 100%;
-  /* @media screen and (max-width: 900px) {
-  height: 90vh;
-  } */
+  @media screen and (max-width: 900px) {
+  height: 120vh;
+  }
   
 `;
 
@@ -71,15 +73,18 @@ const DemoWrap = styled.div`
   overflow: hidden;
   position: relative;
   background-color: rgb(26, 25, 25);
+  
 `;
+
+
 const DemoBg = styled.img`
-   opacity: 0.1;
-   filter: blur(5px);
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: auto;
+opacity: 0.1;
+filter: blur(5px);
+position: absolute;
+left: 0;
+top: 0;
+width: 100 %;
+height: auto;
 `;
 
 
@@ -105,6 +110,11 @@ export const Presentation = () => {
               </Imgs>
             </ImgContainer>
           </PresentationContainer>
+          <div className='animate__animated animate__fadeInLeft'>
+
+            <MouseIcon ></MouseIcon>
+          </div>
+
         </Container>
       </PresentationSection>
     </DemoWrap>

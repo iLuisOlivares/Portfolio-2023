@@ -44,7 +44,7 @@ export const About = () => {
   return (
     <AboutSection id='about'>
       <Container>
-        <AboutContainer >
+        <AboutContainer className="animation-scroll-top" >
           <AboutMe className='animate__animated animate__fadeInLeft'>
             <Me></Me>
             <PersonalInfo></PersonalInfo>

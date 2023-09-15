@@ -11,6 +11,7 @@ const SkillsSection = styled.section`
   align-items: center;
   @media screen and (max-width: 900px) {
   height: 70vh;
+  padding-top: 50px;
 
   }
 `;
@@ -45,11 +46,11 @@ const H2E = styled(H2)`
 export const Skills = () => {
     return (
         <SkillsSection id='skills'>
-            <SkillsContainer className='animate__animated animate__fadeInLeft'>
-                <FlexTitle>
+            <SkillsContainer className='animate__animated animate__fadeInLeft animation-scroll-top'>
+                <FlexTitle >
                     <H2E><SpanG>Skills</SpanG></H2E>
                 </FlexTitle>
-                <Carousel></Carousel>
+                <Carousel ></Carousel>
             </SkillsContainer>
 
 

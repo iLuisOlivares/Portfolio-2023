@@ -49,7 +49,7 @@ const Container = styled.div`
 const Footer = () => {
   const left = "</"
   const right = ">"
-  const logo = "LuisOli"
+  const logo = "LO"
 
   return (
     <FooterContainer>

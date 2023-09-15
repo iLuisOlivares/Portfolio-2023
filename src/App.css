@@ -44,3 +44,55 @@
     transform: rotate(360deg);
   }
 }
+
+
+
+@keyframes show {
+
+  0%{
+      opacity: 0;
+      transform: translateY(-15%);
+  }
+  100%{
+      opacity: 1;
+      filter: blur(0);
+      transform: translateX(0);
+  }
+}
+
+
+.animation-scroll-top{
+  view-timeLine-name: --image;
+  view-timeLine-axis: block;
+
+  animation-timeLine: --image;
+  animation-name: show;
+  animation-range: entry 50% cover 50%;
+  animation-fill-mode: both;
+  animation-duration: 5s;
+}
+
+
+@media screen and (max-width: 900px) {
+  
+.animation-scroll-top{
+  view-timeLine-name: --image;
+  view-timeLine-axis: block;
+
+  animation-timeLine: --image;
+  animation-name: show;
+  animation-range: entry 50% cover 50%;
+  animation-fill-mode: both;
+  animation-duration: 5s;
+}
+}
+
+.imgProj{
+  width: 450px;
+  min-height: 300px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 10px 0px 0px 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  transition: all 0.5s ease;
+}
