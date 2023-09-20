@@ -63,7 +63,7 @@ const SocialIcon = styled.a`
 export const Projects = () => {
 
   return (
-    <DemoWrap>
+    <DemoWrap className='animation-scroll-top2'>
       <ProjectsSection id='projects'>
         <DemoBg
 
@@ -73,10 +73,11 @@ export const Projects = () => {
 
 
           <ProjectComponent title={"SuperHeroe App"}
-            type={"Fullstack Project"}
+            type={"Fullstack-Project"}
             description={"A superhero web page where you can find all of your favorite superheroess"}
             tech={['react', 'django', 'postgre', 'bootstrap']}
             imgL={"https://res.cloudinary.com/iluiss/image/upload/v1693763084/Heroes/m9w8fns8inqqaggihxsh.png"}
+            video={"https://www.youtube.com/embed/Icxl-AILx50?si=r_f-jvEOj7YPefa8"}
           ></ProjectComponent>
           <ProjectComponent title={"Nuestros recuerdos"}
             type={"Fullstack Project"}
@@ -84,17 +85,19 @@ export const Projects = () => {
             tech={['react', 'springboot', 'mysql', 'css']}
             imgL={"https://res.cloudinary.com/iluiss/image/upload/v1694809630/Recuerdos%20Lucas/cd7xpslibzpksywituqo.png"}
           ></ProjectComponent>
-          <ProjectComponent title={"Mechanical Assistant - Api Rest"}
+          <ProjectComponent title={"Mechanical Assistant"}
             type={"Backend Project"}
             description={"REST API for mechanical services in the city of Cartagena"}
             tech={['springboot', 'springsecurity', 'postgre', 'swagger']}
             imgL={"https://res.cloudinary.com/iluiss/image/upload/v1694811056/Logos/oh1enlt88mavcik0dbsq.png"}
           ></ProjectComponent>
-          <ProjectComponent title={"cape gooseberry and strawberry classifier"}
+          <ProjectComponent title={"Cape gooseberry and strawberry classifier"}
             type={"Artificial Intelligence Project"}
             description={"A classifier that identifies cape gooseberry and strawberry in an image using the opencv library and the sklearn library in python"}
             tech={['python', 'sklearn', 'opencv']}
             imgL={"https://res.cloudinary.com/iluiss/image/upload/v1694812372/Logos/urfs8a1xupjnesroxab3.png"}
+            repo={"https://github.com/iLuisOlivares/Clasificador-Fresas-y-Uchuvas"}
+            link={"https://colab.research.google.com/drive/1i0srXVyX3fYZJoem1Bk-NFgT270R__OI?usp=sharing"}
           ></ProjectComponent>
 
           <Divflex>

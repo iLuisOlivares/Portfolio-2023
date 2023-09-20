@@ -59,6 +59,19 @@
       transform: translateX(0);
   }
 }
+@keyframes show2 {
+
+  0%{
+      opacity: 0;
+      transform: translateY(-2%);
+      
+  }
+  100%{
+      opacity: 1;
+      filter: blur(0);
+      transform: translateX(0);
+  }
+}
 
 
 .animation-scroll-top{
@@ -71,6 +84,102 @@
   animation-fill-mode: both;
   animation-duration: 5s;
 }
+.animation-scroll-top2{
+  view-timeLine-name: --image;
+  view-timeLine-axis: block;
+
+  animation-timeLine: --image;
+  animation-name: show2;
+  animation-range: entry 40% cover 20%;
+  animation-fill-mode: both;
+  animation-duration: 5s;
+}
+
+.imgProj{
+  width: 450px;
+  min-height: 300px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 10px 0px 0px 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  transition: all 0.5s ease;
+
+}
+
+.techimg{
+  width: 40px;
+  height: 40px;
+  padding: 5px;
+  background-color: #1d1d1d;
+  border-radius: 20%;
+  
+}
+
+.tooltip:hover .techimg{
+  transition: all 0.5s ease;
+  -webkit-box-shadow: 0px 10px 10px -8px #0a6a85;
+             
+}
+
+.tooltip .tooltip-content {
+  visibility: hidden;
+  font-size: 0px;
+  width: 0%;
+  transition: all 0.2s ease;
+  padding: 10px;
+  background-color: #333;
+  position: absolute;
+  z-index: 1;
+  transform: scaleX(-20px);
+  border-radius: 0px 10px 10px;
+}
+
+.tooltip:hover .tooltip-content {
+  width: 120px;
+  visibility: visible;
+  font-size: 15px;
+}
+
+.titlee{
+  color: rgb(101, 193, 255);
+}
+.F{
+  background-color: #0a6a85;
+  border-radius: 10px;
+}
+.B{
+  background-color: #0a8562;
+  border-radius: 10px;
+}
+.A{
+  background-color: #dda71c;
+  border-radius: 10px;
+}
+
+.text-project{
+  font-size: 18px;
+}
+
+.info-project{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.clickable{
+  cursor: pointer;
+}
+
+.model-color{
+  background-color: #1d1d1d;
+  padding: 20px;
+  border-color: #333;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  border-bottom: black;
+    border-top: black;
+}
+
+
 
 
 @media screen and (max-width: 900px) {
@@ -85,14 +194,18 @@
   animation-fill-mode: both;
   animation-duration: 5s;
 }
-}
 
 .imgProj{
-  width: 450px;
-  min-height: 300px;
+  width: auto;
+  height: 50px;
+  border-radius: 10px 10px 0px 0px;
   object-fit: cover;
-  object-position: center;
-  border-radius: 10px 0px 0px 10px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.5);
-  transition: all 0.5s ease;
 }
+
+.techimg{
+  width: 40px;
+}
+
+}
+
+

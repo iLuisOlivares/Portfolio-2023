@@ -8,7 +8,7 @@ import { Container, SpanA, SpanB, SpanG, decorationanimated, letrasanimated } fr
 const HeaderContainer = styled.header`
   position: fixed;
   top: 0;
-  width: 82%;
+  width: 800px;
   border-radius: 0px 0px 10px 10px;
   padding: 20px;
   z-index: 2;
@@ -105,6 +105,17 @@ const StyledIcon = styled(FontAwesomeIcon)`
   }
 `
 
+export const Container2 = styled.div`
+  width: 85%;
+  max-width: 1250px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+   @media screen and (max-width: 900px) {
+  width: 100%;
+
+}
+`;
 const left = "<"
 const right = ">"
 const logo = "LO"
@@ -113,7 +124,7 @@ const Header = () => {
   return (
 
 
-    <Container>
+    <Container2>
       <HeaderContainer>
         <Logo><SpanA>{left}</SpanA> {logo} <SpanG>{right}</SpanG></Logo>
         <NavMenu>
@@ -132,7 +143,7 @@ const Header = () => {
 
         </NavMenu>
       </HeaderContainer>
-    </Container>
+    </Container2>
   );
 };
 
