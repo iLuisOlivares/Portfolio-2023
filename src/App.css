@@ -115,13 +115,13 @@
   
 }
 
-.tooltip:hover .techimg{
+.divo:hover .techimg{
   transition: all 0.5s ease;
   -webkit-box-shadow: 0px 10px 10px -8px #0a6a85;
              
 }
 
-.tooltip .tooltip-content {
+.divo .tooltip-content {
   visibility: hidden;
   font-size: 0px;
   width: 0%;
@@ -134,7 +134,7 @@
   border-radius: 0px 10px 10px;
 }
 
-.tooltip:hover .tooltip-content {
+.divo:hover .tooltip-content {
   width: 120px;
   visibility: visible;
   font-size: 15px;
@@ -169,18 +169,6 @@
 .clickable{
   cursor: pointer;
 }
-
-.model-color{
-  background-color: #1d1d1d;
-  padding: 20px;
-  border-color: #333;
-  box-shadow: 0 0 10px rgba(0,0,0,0.5);
-  border-bottom: black;
-    border-top: black;
-}
-
-
-
 
 @media screen and (max-width: 900px) {
   

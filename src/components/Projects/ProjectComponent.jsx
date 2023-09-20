@@ -41,13 +41,14 @@ const TechContainer = styled.div`
     justify-content: start;
     background-color: #282828;
     padding: 5px;
-    border-radius: 0px 0px 10px 10px;
+    border-radius: 0px 10px 10px 0px;
     gap: 15px;
     
     @media screen and (max-width: 900px)  {
     flex-direction: row;
     justify-content: center;
     gap: 20px;
+    border-radius: 0 0 10px 10px ;
         
     }
 `
@@ -94,7 +95,7 @@ export const ProjectComponent = ({ title, description, imgL, tech, repo, video, 
                 <img className='imgProj' src={imgL} alt="" srcset="" />
                 <TechContainer>
                     {
-                        tech.map((name) => <div class="tooltip">
+                        tech.map((name) => <div class="divo">
                             <span class="tooltip-content">{name.toUpperCase()}</span>
                             <img className='techimg' alt={name} src={techData[name]}></img>
                         </div>
